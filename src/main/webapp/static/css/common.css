@@ -1,0 +1,81 @@
+.header {
+    width: 100%;
+    min-width: 15.91667rem;
+    height: .83333rem;
+    padding: .20833rem 1rem;
+    box-sizing: border-box;
+    background: #33496D
+}
+.footer {
+    width: 100%;
+    min-width: 15.91667rem;
+    padding-bottom: .33333rem;
+    text-align: center;
+    background: #f2f2f2
+}
+.footer .content {
+    color: #888;
+    padding-top: .08333rem;
+    text-align: center;
+}
+.footer .anbei-wrapper {
+    width: 3.33333rem;
+    margin: 0 auto;
+    padding: .16667rem 0
+}
+
+.header .logo {
+    float: left;
+    width: 4.45rem;
+    height: .44167rem;
+    -moz-background-size: cover;
+    background-size: cover
+}
+
+.g-box {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.g-content {
+    padding: 10px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #4b5e7c
+}
+
+.page-main {
+    width: 100%;
+    min-width: 15.91667rem;
+    background: #f2f2f2
+}
+
+.page-main .page-main-content {
+    width: 15.91667rem;
+    background: 0 0;
+    padding: 0 1rem .66667rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.page-main .g-page-top {
+    line-height: 40px
+}
+
+.g-page-top .fl {
+    float: left
+}
+
+.u-search {
+    display: inline-block;
+    height: 36px;
+    border: 1px solid #dbdbdb;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    padding: 0 20px;
+    position: relative;
+    background: #fff
+}

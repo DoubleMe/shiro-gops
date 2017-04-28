@@ -1,0 +1,30 @@
+.site-nav {
+    z-index: 10000;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+}
+.site-nav .site-nav-bd {
+    margin: 0 auto;
+    width: 1190px;
+    background: #f5f5f5;
+    -webkit-backface-visibility: hidden;
+}
+.site-nav .site-nav-bd .site-nav-bd-l {
+    float: left;
+}
+.site-nav .site-nav-bd .site-nav-bd-r {
+    float: right;
+}
+.site-nav .site-nav-menu {
+    float: left;
+}
+.site-nav .site-nav-menu .site-nav-menu-hd {
+    z-index: 10002;
+    position: relative;
+    padding: 0 6px;
+    height: 35px;
+    line-height: 35px;
+    _display: inline;
+    _zoom: 1;
+}
