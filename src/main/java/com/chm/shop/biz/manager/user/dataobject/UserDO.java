@@ -1,8 +1,8 @@
 package com.chm.shop.biz.manager.user.dataobject;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import org.omg.CORBA.portable.IDLEntity;
+
+import javax.persistence.*;
 
 /**
  * Created by chen-hongmin on 2017/4/27.
@@ -15,6 +15,7 @@ public class UserDO {
      * 用户ID
      */
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long userId;
 
     /**

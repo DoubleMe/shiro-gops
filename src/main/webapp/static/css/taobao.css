@@ -1,30 +1,228 @@
-.site-nav {
-    z-index: 10000;
-    width: 100%;
-    background-color: #f5f5f5;
-    border-bottom: 1px solid #eee;
-}
-.site-nav .site-nav-bd {
-    margin: 0 auto;
+.product-detail {
     width: 1190px;
-    background: #f5f5f5;
-    -webkit-backface-visibility: hidden;
+    height: 520px;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
-.site-nav .site-nav-bd .site-nav-bd-l {
+
+.product-main {
+    width: 90%;
+    height: 85%;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    border: 1px dashed #000;
+}
+
+.product-detail .title {
+    width: 100%;
+    height: 5%;
+    font-size: large;
+}
+
+.product-main .product-main-left {
     float: left;
+    width: 48%;
+    height: 95%;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 20px;
 }
-.site-nav .site-nav-bd .site-nav-bd-r {
+
+.product-main .product-main-left .image {
+    width: 80%;
+    height: 80%;
+    text-align: center;
+}
+
+.product-main .product-main-right {
+    float: right;
+    width: 48%;
+    height: 95%;
+    text-align: left;
+}
+
+.product-main .product-main-right .name {
+    width: 60%;
+    text-align: left;
+    font-family: inherit;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.product-main .product-main-right .introduce {
+    width: 80%;
+    text-align: left;
+    font-family: inherit;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.product-main .product-main-right .price {
+    width: 80%;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.product-main .product-main-right .num {
+    width: 80%;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.product-main .product-main-right .ps-l {
+    width: 35%;
+    margin-top: 15px;
+    float: left;
+    font-size: 20px;
+}
+
+.product-main .product-main-right .ps-r {
+    width: 60%;
+    margin-top: 10px;
+    float: right;
+    text-align: left;
+}
+
+.product-main .product-main-right .tb-action {
+    width: 100%;
+    margin-top: 90px;
+    text-align: left;
+}
+
+.button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 16px/100% 'Microsoft yahei', Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.product-main .product-main-right .tb-action .orange {
+    color: #fef4e9;
+    border: solid 1px #da7c0c;
+    background: #f78d1d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+}
+
+.order-main {
+    width: 1190px;
+    height: auto;
+}
+.order-main .top{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.order-main .top .logo-buy {
+    width: 20%;
+    font-size: x-large;
+    font-style: oblique;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.order-main .top .stepbar {
     float: right;
 }
-.site-nav .site-nav-menu {
+
+.order-main .top .stepbar li {
     float: left;
+    list-style: none;
+    font-size: large;
+    font-style: oblique;
 }
-.site-nav .site-nav-menu .site-nav-menu-hd {
-    z-index: 10002;
-    position: relative;
-    padding: 0 6px;
-    height: 35px;
-    line-height: 35px;
-    _display: inline;
-    _zoom: 1;
+
+.order-main .top .stepbar .info {
+    font-style: italic;
+    font-size: larger;
+}
+.order-main .address {
+    margin-left: 10%;
+    width: 100%;
+}
+.order-main .address .title{
+    height: 1px;
+    margin-top: 50px;
+    text-align: left;
+    font-size: large;
+    font-style: oblique;
+}
+.order-main .address .line {
+    height: 3px;
+    border: none;
+    border-top: 3px double red;
+    margin-top: 30px;
+
+}
+.order-main .address .user {
+   width: 100%;
+
+}
+
+.order-main .address .user-inf{
+    border: none;
+    font-style: normal;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.order-main .address .add{
+    height: 3px;
+    font-style: normal;
+    font-size: medium;
+    margin-top: 30px;
+}
+
+.order-main .product {
+    margin-top: 10px;
+    margin-left: 10%;
+    width: 100%;
+}
+.order-main .product .title{
+    height: 1px;
+    margin-top: 50px;
+    text-align: left;
+    font-size: large;
+    font-style: oblique;
+}
+
+.order-main .product .line {
+    height: 3px;
+    border: none;
+    border-top: 3px double red;
+    margin-top: 30px;
+
+}
+
+.order-main .product .info {
+    width: 100%;
+}
+.order-main .product .info .buy {
+    width: 100%;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.order-main .product .info .detail{
+    width: 100%;
+}
+.order-main .product .info .detail .total{
+    width: 100%;
+    text-align: right;
 }

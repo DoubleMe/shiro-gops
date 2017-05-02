@@ -32,6 +32,10 @@
         </property>
         <property name="ignoreResourceNotFound" value="true"/>
     </bean>
+    <!-- 拦截器 -->
+    <mvc:interceptors>
+        <bean class="com.chm.shop.app.interceptor.OperateInterceptor"/>
+    </mvc:interceptors>
     <mvc:resources mapping="/img/**" location="/img/"/>
     <mvc:resources mapping="/css/**" location="/css/"/>
     <mvc:resources mapping="/js/**" location="/js/"/>
