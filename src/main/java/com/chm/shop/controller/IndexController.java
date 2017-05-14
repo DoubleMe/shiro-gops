@@ -33,7 +33,7 @@ public class IndexController {
     @RequestMapping("/")
     public String homepage(Model model){
 
-        return "redirect:main";
+        return "redirect:main.ftl";
     }
     /**
      * 首页
@@ -71,7 +71,7 @@ public class IndexController {
     }
 
     /**
-     * 详情
+     * 订单页
      * @param id
      * @return
      */
@@ -89,5 +89,14 @@ public class IndexController {
     @RequestMapping("/login")
     public String toLogin(){
         return "/user/login";
+    }
+
+    /**
+     * 登录
+     * @return
+     */
+    @RequestMapping("/shop")
+    public String shop(){
+        return "/admin/shop";
     }
 }

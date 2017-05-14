@@ -40,9 +40,10 @@
             </div>
 
             <div data-toggle="arrowdown" id="arrow6" class="user-name">
-                <a href="#">卖家中心 |</a>
+                <a href="/user/admin/toLogin">卖家中心 |</a>
             </div>
             <a class="a-float-left" href="#">联系客服</a>
         </div>
     </div>
 </div>
+</html>

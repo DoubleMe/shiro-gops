@@ -1,10 +1,8 @@
 <#include "/views/header.ftl">
-<div class="align:center">
-            江山蔬果用户注册
-</div>
 <div id="login" class="login">
+    <h1>Login</h1>
     <div>${msg!''}</div>
-    <form method="post" action="/user/login">
+    <form method="post" action="/user/admin/login">
         <input type="hidden" name="type" value="0">
         <input type="text" required="required" placeholder="用户名" name="userName">
         <input type="password" required="required" placeholder="密码" name="userPwd">

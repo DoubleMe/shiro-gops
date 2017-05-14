@@ -39,7 +39,7 @@ public class UserController {
 
         CookieUtils.addCookie(response,"userId", String.valueOf(userDO.getUserId()));
         CookieUtils.addCookie(response,"userName", String.valueOf(userDO.getUserName()));
-        return "redirect:/main";
+        return "redirect:/main.ftl";
     }
 
     @RequestMapping("/add")
@@ -53,12 +53,35 @@ public class UserController {
         UserDO auser = userManager.save(userDO);
         CookieUtils.addCookie(response,"userId", String.valueOf(userDO.getUserId()));
         CookieUtils.addCookie(response,"userName", String.valueOf(userDO.getUserName()));
-        return "redirect:/main";
+        return "redirect:/main.ftl";
     }
 
     @RequestMapping("/toRegister")
     public String toRegister(){
 
         return "/user/register";
+    }
+
+    /**
+     * 卖家登录
+     * @return
+     */
+    @RequestMapping("/admin/toLogin")
+    public String toAdminLogin(){
+        return "/admin/login";
+    }
+    /**
+     * 卖家登录
+     * @return
+     */
+    @RequestMapping("/admin/login")
+    public String adminLogin(UserLoginVO vo, HttpServletResponse response,Model model){
+        if (!"admin".equals(vo.getUserName()) || !"admin".equals(vo.getUserPwd())){
+            model.addAttribute("msg","用户名或密码错误");
+            return "/admin/login";
+        }
+        CookieUtils.addCookie(response,"userId", "admin");
+        CookieUtils.addCookie(response,"userName", "admin");
+        return "/admin/main";
     }
 }

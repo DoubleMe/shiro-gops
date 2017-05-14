@@ -56,7 +56,6 @@
     </div>
 </div>
 
-
 <#include "/views/footer.ftl">
 <script>
     function toPage(index) {

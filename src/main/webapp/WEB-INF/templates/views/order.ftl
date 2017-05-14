@@ -20,19 +20,19 @@
         <div class="user">
             <ul>
                 <li>
-                    <div class="user-inf"><input type="radio" name="addr">杭州市滨江区 姓名 : 余文 联系电话 : 18868823394</div>
+                    <div class="user-inf"><input type="radio" name="addr">杭州市滨江区 姓名 : 余余 联系电话 : 18370230202</div>
                 </li>
                 <li>
-                    <div class="user-inf"><input type="radio" name="addr">杭州市滨江区 姓名 : 余文 联系电话 : 18868823394</div>
+                    <div class="user-inf"><input type="radio" name="addr">杭州市上城区 姓名 : 余余 联系电话 : 18370230202</div>
                 </li>
                 <li>
-                    <div class="user-inf"><input type="radio" name="addr">杭州市滨江区 姓名 : 余文 联系电话 : 18868823394</div>
+                    <div class="user-inf"><input type="radio" name="addr">杭州市下城区 姓名 : 余余 联系电话 : 18370230202</div>
                 </li>
                 <li>
-                    <div class="user-inf"><input type="radio" name="addr">杭州市滨江区 姓名 : 余文 联系电话 : 18868823394</div>
+                    <div class="user-inf"><input type="radio" name="addr">杭州市西湖区 姓名 : 余余 联系电话 : 18370230202</div>
                 </li>
                 <li>
-                    <div class="user-inf"><input type="radio" name="addr">杭州市滨江区 姓名 : 余文 联系电话 : 18868823394</div>
+                    <div class="user-inf"><input type="radio" name="addr">杭州市萧山区 姓名 : 余余 联系电话 : 18370230202</div>
                 </li>
             </ul>
         </div>
