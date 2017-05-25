@@ -22,6 +22,10 @@ public class ProductDO {
 
     private String productDesc;
 
+    private String cd;
+
+    private int kc;
+
     private float price;
 
     public Long getId() {
@@ -72,5 +76,25 @@ public class ProductDO {
     public void setImageUrl(String imageUrl) {
 
         this.imageUrl = imageUrl;
+    }
+
+    public String getCd() {
+
+        return cd;
+    }
+
+    public void setCd(String cd) {
+
+        this.cd = cd;
+    }
+
+    public int getKc() {
+
+        return kc;
+    }
+
+    public void setKc(int kc) {
+
+        this.kc = kc;
     }
 }

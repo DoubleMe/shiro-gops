@@ -1,5 +1,6 @@
-<#include "/views/header.ftl">
-<div class="register">
+<#include "/views/bootstrap/header.ftl">
+<#include "/views/bootstrap/leftMenu.ftl">
+<div class="admin-main">
     <div style="text-align: center">
         <h1>添加蔬果</h1>
     </div>
@@ -56,4 +57,4 @@
     </form>
 </div>
 
-<#include "/views/footer.ftl">
+<#include "/views/bootstrap/adminFooter.ftl">

@@ -1,4 +1,5 @@
 <#include "/views/header.ftl">
+<#import "/macro/macros.ftl" as macros/>
 <div class="top-main">
     <form id="top-search" method="get" action="/main">
         <div class="search-wrapper">
@@ -13,7 +14,6 @@
             </div>
         </div>
     </form>
-
 </div>
 <div class="g-box">
     <div class="main">
@@ -31,7 +31,7 @@
                         <div class="inner-right">
                             <div class="product-name">商品名:${p.name}</div>
                             <div class="product-info">
-                        <span>商品介绍:${p.productDesc}
+                        <span>商品介绍:<@macros.dataSub data=p.productDesc!'' length=40/>
 
                         </span>
                             </div>

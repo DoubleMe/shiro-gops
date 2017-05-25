@@ -13,6 +13,6 @@ import java.util.List;
 public interface ProductManager extends PagingAndSortingRepository<ProductDO,Long> {
 
 
-    @Query(value = "select id,imageUrl,name,price,productDesc from t_product_info where name like %:name% limit :start,:limitNum",nativeQuery=true)
+    @Query(value = "select id,imageUrl,kc,cd,name,price,productDesc from t_product_info where name like %:name% limit :start,:limitNum",nativeQuery=true)
     List<ProductDO> query(@Param("name")String name,@Param("start")int start,@Param("limitNum")int size);
 }

@@ -91,12 +91,5 @@ public class IndexController {
         return "/user/login";
     }
 
-    /**
-     * 登录
-     * @return
-     */
-    @RequestMapping("/shop")
-    public String shop(){
-        return "/admin/shop";
-    }
+
 }
