@@ -2,12 +2,15 @@ package com.chm.shop.controller;
 
 import com.chm.shop.biz.manager.product.ProductManager;
 import com.chm.shop.biz.manager.product.dataobject.ProductDO;
+import com.chm.shop.controller.base.BaseJsonObject;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -68,9 +71,28 @@ public class AdminController {
      * @return
      */
     @RequestMapping("/add")
-    public String add(ProductDO productDO, Model model) {
+    @ResponseBody
+    public Object add(ProductDO productDO) {
 
+        BaseJsonObject baseJsonObject = new BaseJsonObject();
         productManager.save(productDO);
-        return "/admin/shop/detail";
+        baseJsonObject.successRes("操作成功",null);
+        return baseJsonObject;
+    }
+
+
+    /**
+     * 商品列表
+     *
+     * @return
+     */
+    @RequestMapping("/del/{id}")
+    @ResponseBody
+    public Object del(@PathVariable Long id) {
+
+        BaseJsonObject baseJsonObject = new BaseJsonObject();
+        productManager.delete(id);
+        baseJsonObject.successRes("操作成功",null);
+        return baseJsonObject;
     }
 }

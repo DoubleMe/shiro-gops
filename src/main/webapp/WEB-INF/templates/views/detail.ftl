@@ -24,10 +24,7 @@
                 </div>
                 <div class="num">
                     <div class="ps-l">
-                        请选择数量:
-                    </div>
-                    <div class="ps-r">
-                        <input type="text" class="spinner"/>
+                        剩余数量:  ${detail.kc}
                     </div>
                 </div>
                 <div class="tb-action">
@@ -38,7 +35,3 @@
     </div>
 </div>
 <#include "/views/footer.ftl">
-
-<script>
-    $('.spinner').spinner();
-</script>

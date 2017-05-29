@@ -1,7 +1,7 @@
 .admin-left {
     float: left;
     margin-top: 80px;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 50px;
     margin-right: 20px;
 }
@@ -13,6 +13,14 @@
 .admin-left .menu-bar .menu {
     margin-bottom: 20px;
 }
+.back-show{
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    /*font-size: 14px;*/
+    /*line-height: 1.428571429;*/
+    /*color: #333333;*/
+    /*background-color: #ffffff;*/
+
+}
 
 .admin-main {
     float: left;
@@ -21,6 +29,7 @@
     height: 500px;
     width: 60%;
     border-left: 1px outset #00F;
+
 }
 .admin-main .search-button{
     float: left;
@@ -36,6 +45,7 @@
 .admin-main .shop-show{
     text-align: center;
     margin-left: 20px;
+    font-weight: bold;
 }
 
 .admin-main .text-show {

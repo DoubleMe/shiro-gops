@@ -9,8 +9,7 @@
         </div>
         <div class="panel-body">
             <div class="text-show">
-                欢迎你!!!!!!!!!!!!!!!!!!!!!!!!
-            </div>
+                欢迎来到江山蔬果管理系统
         </div>
     </div>
 </div>
