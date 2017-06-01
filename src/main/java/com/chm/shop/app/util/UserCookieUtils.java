@@ -5,7 +5,7 @@ import org.springframework.util.StringUtils;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * Created by chen-hongmin on 2017/5/25.
+ * Created by yuwen on 2017/5/25.
  */
 public class UserCookieUtils {
 

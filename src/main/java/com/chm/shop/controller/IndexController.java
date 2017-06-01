@@ -16,7 +16,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
- * Created by chen-hongmin on 2017/4/26.
+ * Created by yuwen on 2017/4/26.
  */
 @RequestMapping("/")
 @Controller
@@ -33,7 +33,7 @@ public class IndexController {
     @RequestMapping("/")
     public String homepage(Model model){
 
-        return "redirect:main.ftl";
+        return "redirect:main";
     }
     /**
      * 首页

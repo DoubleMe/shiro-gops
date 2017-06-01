@@ -4,7 +4,7 @@ import com.chm.shop.biz.manager.shoppingcart.dataobject.ShoppingCartDO;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 /**
- * Created by chen-hongmin on 2017/5/25.
+ * Created by yuwen on 2017/5/25.
  */
 public interface ShoppingCartManager extends PagingAndSortingRepository<ShoppingCartDO,Long> {
 

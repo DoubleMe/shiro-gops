@@ -7,7 +7,7 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
 /**
- * Created by chen-hongmin on 2017/4/30.
+ * Created by yuwen on 2017/4/30.
  */
 public class CookieUtils {
 

@@ -1,6 +1,6 @@
 <#include "/views/header.ftl">
 <div class="align:center">
-            江山蔬果用户注册
+            登录
 </div>
 <div id="login" class="login">
     <div>${msg!''}</div>

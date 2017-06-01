@@ -16,7 +16,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
- * Created by chen-hongmin on 2017/5/20.
+ * Created by yuwen on 2017/5/20.
  */
 @RequestMapping("/admin/shop")
 @Controller
@@ -25,6 +25,17 @@ public class AdminController {
 
     @Resource
     private ProductManager productManager;
+
+    /**
+     * 商品列表
+     *
+     * @return
+     */
+    @RequestMapping("/main")
+    public String main() {
+
+        return "/admin/main";
+    }
 
     /**
      * 商品列表

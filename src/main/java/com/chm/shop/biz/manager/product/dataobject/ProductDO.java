@@ -3,7 +3,7 @@ package com.chm.shop.biz.manager.product.dataobject;
 import javax.persistence.*;
 
 /**
- * Created by chen-hongmin on 2017/4/30.
+ * Created by yuwen on 2017/4/30.
  */
 @Entity
 @Table(name = "t_product_info",schema = "商品信息表")

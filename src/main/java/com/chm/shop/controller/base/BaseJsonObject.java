@@ -1,7 +1,7 @@
 package com.chm.shop.controller.base;
 
 /**
- * Created by chen-hongmin on 2017/5/25.
+ * Created by yuwen on 2017/5/25.
  */
 public class BaseJsonObject {
 

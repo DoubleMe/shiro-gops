@@ -3,7 +3,7 @@ package com.chm.shop.biz.manager.shoppingcart.dataobject;
 import javax.persistence.*;
 
 /**
- * Created by chen-hongmin on 2017/5/25.
+ * Created by yuwen on 2017/5/25.
  */
 @Entity
 @Table(name = "t_shopping_cart",schema = "购物车")

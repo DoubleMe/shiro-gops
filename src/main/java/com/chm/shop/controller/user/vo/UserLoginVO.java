@@ -1,7 +1,7 @@
 package com.chm.shop.controller.user.vo;
 
 /**
- * Created by chen-hongmin on 2017/4/30.
+ * Created by yuwen on 2017/4/30.
  */
 public class UserLoginVO {
 

@@ -70,6 +70,7 @@
         </div>
     </div>
 </div>
+
 <#include "/views/footer.ftl">
 <script>
     $('.spinner').spinner();

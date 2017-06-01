@@ -6,7 +6,7 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 
 /**
- * Created by chen-hongmin on 2017/4/27.
+ * Created by yuwen on 2017/4/27.
  */
 @Repository
 public interface UserManager extends PagingAndSortingRepository<UserDO,Long>{

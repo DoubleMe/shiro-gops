@@ -8,7 +8,7 @@ import org.springframework.data.repository.query.Param;
 import java.util.List;
 
 /**
- * Created by chen-hongmin on 2017/4/30.
+ * Created by yuwen on 2017/4/30.
  */
 public interface ProductManager extends PagingAndSortingRepository<ProductDO,Long> {
 

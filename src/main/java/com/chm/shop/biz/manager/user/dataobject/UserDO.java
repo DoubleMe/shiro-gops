@@ -5,7 +5,7 @@ import org.omg.CORBA.portable.IDLEntity;
 import javax.persistence.*;
 
 /**
- * Created by chen-hongmin on 2017/4/27.
+ * Created by yuwen on 2017/4/27.
  */
 @Entity
 @Table(name = "t_user_info",schema = "用户信息表")
