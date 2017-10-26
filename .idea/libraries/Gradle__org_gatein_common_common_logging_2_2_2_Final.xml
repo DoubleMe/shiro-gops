@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.gatein.common:common-logging:2.2.2.Final">
+    <CLASSES>
+      <root url="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.gatein.common/common-logging/2.2.2.Final/aee18008518671fb10982c0fe5f7383e98f71c47/common-logging-2.2.2.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.gatein.common/common-logging/2.2.2.Final/ed620b8591a690b940523eef096fb9ab552b7a18/common-logging-2.2.2.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
