@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-					http://www.springframework.org/schema/beans/spring-beans.xsd">
+					http://www.springframework.org/schema/beans/spring-beans.xsd
+					http://www.springframework.org/schema/aop
+					http://www.springframework.org/schema/aop/spring-aop.xsd">
     <description>spring bean 配置</description>
 
-    <!--<bean id="userManager" class="com.chm.shop.biz.manager.user.UserManager"/>-->
+    <!-- 验证拦截器 -->
+    <bean id="validateInterceptor" class="com.chm.shop.web.common.interceptor.ParamValidateInterceptor"/>
+    <!-- 异常拦截器 -->
+    <bean id="exceptionResolver" class="com.chm.shop.web.common.interceptor.ExceptionResolver"/>
 
+    <!-- spring验证拦截器 -->
+    <aop:config>
+        <aop:pointcut id="controllerOperation"
+                      expression="execution(* com.chm.shop.web.controller..*Controller.*(..))" />
+        <aop:advisor advice-ref="validateInterceptor" pointcut-ref="controllerOperation"/>
+    </aop:config>
 </beans>

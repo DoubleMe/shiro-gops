@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!---->
+<mapper namespace="com.chm.shop.mapper.RoleMenuMapper">
+
+    <!--the base resultMap-->
+    <resultMap id="BaseResultMap" type="com.chm.shop.manager.rolemenu.dataobject.RoleMenuDO" >
+        <id column="id" property="id" />
+        <result column="role_id" property="roleId" />
+        <result column="menu_id" property="menuId" />
+    </resultMap>
+
+    <!--the Base_Column_List-->
+    <sql id="Base_Column_List" >
+        id, role_id, menu_id
+    </sql>
+
+    <!--新增-->
+    <insert id="insert" parameterType="com.chm.shop.manager.rolemenu.dataobject.RoleMenuDO" >
+        INSERT INTO t_role_menu (id, role_id, menu_id)
+        VALUES (#{id}, #{roleId}, #{menuId})
+    </insert>
+
+    <!--主键查询-->
+    <select id="getByRoleId" resultMap="BaseResultMap" >
+        SELECT 
+        <include refid="Base_Column_List"/>
+        FROM t_role_menu
+        WHERE role_id = #{id}
+    </select>
+
+    <!--列表查询-->
+    <select id="list" resultMap="BaseResultMap" >
+        SELECT 
+        <include refid="Base_Column_List"/>
+        FROM t_role_menu
+        <where>
+            <if test="roleId != null">
+                role_id = #{roleId}
+            </if>
+        </where>
+
+    </select>
+
+    <!--更新-->
+    <update id="update" >
+        UPDATE t_role_menu
+        <set>
+            <if test="id != null">
+                id = #{id},
+            </if>
+            <if test="roleId != null">
+                role_id = #{roleId},
+            </if>
+            <if test="menuId != null">
+                menu_id = #{menuId},
+            </if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <!--根据主键删除-->
+    <delete id="delById" >
+        DELETE FROM t_role_menu
+        WHERE role_id = #{roleId}
+    </delete>
+
+    <!--列表查询-->
+    <select id="listMenu" resultType="com.chm.shop.manager.menu.dataobject.MenuDO" >
+        SELECT
+        menu.id,menu.name,menu.url
+        FROM t_role_menu rm
+        LEFT JOIN t_menu menu ON rm.menu_id = menu.id
+        WHERE rm.role_id = #{roleId}
+
+    </select>
+
+</mapper>

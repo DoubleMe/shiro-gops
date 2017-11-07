@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!---->
+<mapper namespace="com.chm.shop.mapper.MenuMapper">
+
+    <!--the base resultMap-->
+    <resultMap id="BaseResultMap" type="com.chm.shop.manager.menu.dataobject.MenuDO" >
+        <id column="id" property="id" />
+        <result column="url" property="url" />
+        <result column="name" property="name" />
+        <result column="type" property="type" />
+        <result column="parent_id" property="parentId" />
+        <result column="icon" property="icon" />
+    </resultMap>
+
+    <!--the Base_Column_List-->
+    <sql id="Base_Column_List" >
+        id, url, name, type, parent_id, icon
+    </sql>
+
+    <!--新增-->
+    <insert id="insert" parameterType="com.chm.shop.manager.menu.dataobject.MenuDO" >
+        INSERT INTO t_menu (id, url, name, type, parent_id, icon)
+        VALUES (#{id}, #{url}, #{name}, #{type}, #{parentId}, #{icon})
+    </insert>
+
+    <!--主键查询-->
+    <select id="getById" resultMap="BaseResultMap" >
+        SELECT 
+        <include refid="Base_Column_List"/>
+        FROM t_menu
+        WHERE id = #{id}
+    </select>
+
+    <!--列表查询-->
+    <select id="list" resultMap="BaseResultMap" >
+        SELECT 
+        <include refid="Base_Column_List"/>
+        FROM t_menu
+        <where>
+            <if test="name != null and name != ''">
+                name LIKE CONCAT(#{name}, '%')
+            </if>
+        </where>
+    </select>
+
+    <!--更新-->
+    <update id="update" >
+        UPDATE t_menu
+        <set>
+            <if test="id != null">
+                id = #{id},
+            </if>
+            <if test="url != null">
+                url = #{url},
+            </if>
+            <if test="name != null">
+                name = #{name},
+            </if>
+            <if test="type != null">
+                type = #{type},
+            </if>
+            <if test="parentId != null">
+                parent_id = #{parentId},
+            </if>
+            <if test="icon != null">
+                icon = #{icon},
+            </if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <!--根据主键删除-->
+    <delete id="delById" >
+        DELETE FROM t_menu
+        WHERE id = #{id}
+    </delete>
+
+</mapper>

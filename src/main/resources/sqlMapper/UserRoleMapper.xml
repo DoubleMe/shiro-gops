@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!---->
+<mapper namespace="com.chm.shop.mapper.UserRoleMapper">
+
+    <!--the base resultMap-->
+    <resultMap id="BaseResultMap" type="com.chm.shop.manager.userrole.dataobject.UserRoleDO" >
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="role_id" property="roleId" />
+    </resultMap>
+
+    <!--the Base_Column_List-->
+    <sql id="Base_Column_List" >
+        id, user_id, role_id
+    </sql>
+
+    <!--新增-->
+    <insert id="insert" parameterType="com.chm.shop.manager.userrole.dataobject.UserRoleDO" >
+        INSERT INTO t_user_role (id, user_id, role_id)
+        VALUES (#{id}, #{userId}, #{roleId})
+    </insert>
+
+    <!--主键查询-->
+    <select id="getByUserId" resultMap="BaseResultMap" >
+        SELECT 
+        <include refid="Base_Column_List"/>
+        FROM t_user_role
+        WHERE user_id = #{userId}
+    </select>
+
+    <!--列表查询-->
+    <select id="list" resultMap="BaseResultMap" >
+        SELECT 
+        <include refid="Base_Column_List"/>
+        FROM t_user_role
+    </select>
+
+    <!--更新-->
+    <update id="update" >
+        UPDATE t_user_role
+        <set>
+            <if test="id != null">
+                id = #{id},
+            </if>
+            <if test="userId != null">
+                user_id = #{userId},
+            </if>
+            <if test="roleId != null">
+                role_id = #{roleId},
+            </if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <!--根据主键删除-->
+    <delete id="delById" >
+        DELETE FROM t_user_role
+        WHERE id = #{id}
+    </delete>
+
+</mapper>

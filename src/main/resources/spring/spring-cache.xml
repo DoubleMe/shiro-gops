@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<description>redis配置</description>
+	<!-- jedis pool配置 -->
+	<bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+		<property name="maxTotal" value="${local.redis.maxTotal}" />
+		<property name="maxIdle" value="${local.redis.maxIdle}" />
+		<property name="maxWaitMillis" value="${local.redis.maxWaitMillis}" />
+		<property name="testOnBorrow" value="${local.redis.testOnBorrow}" />
+	</bean>
+
+	<!-- spring data redis -->
+	<bean id="connectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
+			<property name="usePool" value="true"/>
+			<property name="hostName" value="${local.redis.host}"/>
+	        <property name="port" value="${local.redis.port}"/>
+	        <!--<property name="password"  value="${local.redis.password}"/>-->
+	        <property name="timeout" value="${local.redis.timeout}"/>
+	        <property name="database" value="0" />
+	        <constructor-arg index="0" ref="jedisPoolConfig" />
+	</bean>
+	<!-- redis 模板 -->
+	<bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
+	        <property name="connectionFactory" ref="connectionFactory"/>
+	</bean>
+
+	<!-- 通用缓存模板-->
+	<bean id="commonCacheManager" class="com.chm.shop.app.cache.CommonCacheManager">
+		<property name="template" ref="redisTemplate"/>
+	</bean>
+</beans>

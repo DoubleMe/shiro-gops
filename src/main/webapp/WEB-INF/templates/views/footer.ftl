@@ -1,15 +1,15 @@
-<#--底部栏-->
-<div class="footer">
-    <div class="footer-right">
-        <div class="footer-nav">
-            <a href="#">版权所有</a>:
-            <a href="#">江山蔬果</a>|
-            <a href="#">江山余余公司</a>|
-            <a href="#">江山余余蔬果有限公司</a>|
-            <a href="#">江山余余蔬果电子商务有限公司</a>
-        </div>
-    </div>
+<div class="layui-footer">
+    <!-- 底部固定区域 -->
+    © layui.com - 底部固定区域
+</div>
 </div>
 
-<!--backtoTop1-->
+<script>
+    //JavaScript代码区域
+    layui.use('element', function(){
+        var element = layui.element;
 
+    });
+</script>
+</body>
+</html>

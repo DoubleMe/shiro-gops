@@ -3,7 +3,1322 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/SessionManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/session/mgt/SessionManager.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringMVC-Mybatis-Shiro-redis-0.2/src/main/java/com/sojson/permission/controller/UserRoleAllocationController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringMVC-Mybatis-Shiro-redis-0.2/src/main/java/com/sojson/user/controller/UserCoreController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringMVC-Mybatis-Shiro-redis-0.2/src/main/java/com/sojson/user/controller/UserLoginController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringMVC-Mybatis-Shiro-redis-0.2/src/main/resources/config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringMVC-Mybatis-Shiro-redis-0.2/src/main/resources/jdbc.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringMVC-Mybatis-Shiro-redis-0.2/src/main/resources/shiro-config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringMVC-Mybatis-Shiro-redis-0.2/src/main/resources/shiro_base_auth.ini">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringMVC-Mybatis-Shiro-redis-0.2/src/main/resources/spring-cache.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringMVC-Mybatis-Shiro-redis-0.2/src/main/resources/spring-shiro.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringMVC-Mybatis-Shiro-redis-0.2/src/main/resources/spring.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringMVC-Mybatis-Shiro-redis-0.2/src/main/webapp/WEB-INF/ftl/user/index.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringMVC-Mybatis-Shiro-redis-0.2/src/main/webapp/WEB-INF/ftl/user/login.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mybatis-generator/src/main/java/com/chm/generator/generate/AbstractGenerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../shiro/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../shiro/src/test/java/com/chenhm/shiro/ShiroManagerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/Constants/CommonConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/UserTokenManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/cache/CacheBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/cache/CommonCacheManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/cache/RedisKeys.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/PageModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/PageResponseDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/Response.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/ResponseDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/anno/MyValid.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/anno/Myalid.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/anno/Vaild.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/anno/Valid.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/query/PageQuery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/reponse/PageResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/reponse/Response.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/reponse/ResponseCode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/reponse/ResponseUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/constants/CommonConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/constants/IndexViewConstats.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/constants/MessageConstats.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/interceptor/OperateInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/RedisShiroSessionDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/ShiroFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/ShiroService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/cache/CacheBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/cache/CommonCacheManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/filter/KicKoutSessionFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/filter/PermissionFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/filter/SystemLogoutFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/listenter/CacheSessionLister.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/listenter/CahceSessionLister.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/lister/CacheSessionLister.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/matcher/RetryLimitHashedCredentialsMatcher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/realm/UserRealm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/reponse/Response.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/reponse/ResponseCode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/shiro/reponse/ResponseUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/util/AESUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/util/JsonUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/util/Md5Utils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/util/ObjectUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/util/PageUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/util/RandomUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/util/ResponseUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/biz/manager/user/dataobject/UserDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/controller/IndexController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/controller/ShiroController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/menu/MenuManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/menu/MenuService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/menu/dataobject/MenuDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/menu/impl/MenuServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/menu/query/MenuQuery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/product/ProductManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/role/RoleManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/role/RoleService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/role/dataobject/RoleDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/role/impl/RoleServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/role/query/RoleQuery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/rolemenu/RoleMenuManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/rolemenu/RoleMenuService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/rolemenu/dataobject/RoleMenuDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/rolemenu/impl/RoleMenuServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/rolemenu/query/RoleMenuQuery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/shoppingcart/ShoppingCartManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/user/UserManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/user/UserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/user/dataobject/UserDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/user/impl/UserServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/user/query/UserQuery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/userrole/UserRoleManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/userrole/UserRoleService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/userrole/dataobject/UserRoleDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/userrole/impl/UserRoleServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/mapper/MenuMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/mapper/RoleMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/mapper/RoleMenuMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/mapper/TMenuMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/mapper/TUserMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/mapper/UserMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/mapper/UserRoleMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/common/MySimpleCookie.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/common/SimpleCookie.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/common/cache/MenuCache.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/common/interceptor/ExceptionResolver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/common/interceptor/OperateInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/common/interceptor/ParamValidateInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/common/util/HttpUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/controller/IndexController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/controller/auth/RoleMenuController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/controller/auth/vo/RoleMenuVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/controller/auth/vo/SaveVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/controller/menu/MenuController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/controller/role/RoleController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/controller/user/UserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/controller/user/vo/UserLoginVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/config/config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/config/jdbc.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/logback.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/shiro.ini">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/spring/spring-beans.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/spring/spring-cache.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/spring/spring-jpa.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/spring/spring-support.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/sqlMapper/MenuMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/sqlMapper/RoleMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/sqlMapper/RoleMenuMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/sqlMapper/TMenuMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/sqlMapper/TUserMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/sqlMapper/UserMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/sqlMapper/UserRoleMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/body.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/error.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/footer.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/header.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/index.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/left.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/login.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/menu/list.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/noPermission.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/role/list.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/user/list.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/user/login.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/user/register.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/static/css/app.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/static/js/app/app.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/static/js/app/page.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/static/js/layui/css/layui.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/complete-flow-portal/src/main/java/com/complete/flow/portal/biz/manager/quanliucheng/hospital/impl/HospitalManagerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/complete-flow-portal/src/main/java/com/complete/flow/portal/controller/healthrecord/HealthRecordController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/complete-flow-portal/src/main/java/com/complete/flow/portal/controller/quanliucheng/IndexController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/complete-flow-portal/src/main/java/com/complete/flow/portal/controller/quanliucheng/hospital/HospitalController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/manager/org/OrgInfoManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/manager/org/impl/OrgInfoManagerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/manager/org/query/OrgListQ.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/dal/mapper/OrgInfoMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/web/common/PageBaseJsonObject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/web/common/interceptor/MvcSignInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/web/controllers/ops/org/OrgInfoController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/web/controllers/ops/usermanagerinfo/UserManagerInfoController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/resources/config/config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/resources/sqlmapper/ManagerInfoMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/resources/sqlmapper/OrgInfoMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/webapp/WEB-INF/templates/views/ops/org/hoslist.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/webapp/WEB-INF/templates/views/ops/stat/communitylist.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/webapp/WEB-INF/templates/views/ops/stat/list.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/webapp/static/ops/new/jsdev/module/common/app.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/yuhuan-health-schedule/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/yuhuan-health-schedule/src/main/java/com/yuhuan/health/dataobject/InsuranceUserDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/yuhuan-health-schedule/src/main/java/com/yuhuan/health/dataobject/RankInfoDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/yuhuan-health-schedule/src/main/java/com/yuhuan/health/manager/RankInfo/impl/RankInfoManagerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/yuhuan-health-schedule/src/main/resources/sqlmapper/InsuranceUserMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/yuhuan-health-schedule/src/main/resources/sqlmapper/RankInfoMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/yuhuan-health-schedule/src/test/java/com/yuhuan/health/manager/RankInfo/RankInfoManagerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.github.miemiedev/mybatis-paginator/1.2.17/e8fb4399681a78a87a962ca0dc41e0c0dd9dd719/mybatis-paginator-1.2.17-sources.jar!/com/github/miemiedev/mybatis/paginator/CleanupMybatisPaginatorListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.github.miemiedev/mybatis-paginator/1.2.17/e8fb4399681a78a87a962ca0dc41e0c0dd9dd719/mybatis-paginator-1.2.17-sources.jar!/com/github/miemiedev/mybatis/paginator/OffsetLimitInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.github.miemiedev/mybatis-paginator/1.2.17/e8fb4399681a78a87a962ca0dc41e0c0dd9dd719/mybatis-paginator-1.2.17-sources.jar!/com/github/miemiedev/mybatis/paginator/dialect/Dialect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.github.miemiedev/mybatis-paginator/1.2.17/e8fb4399681a78a87a962ca0dc41e0c0dd9dd719/mybatis-paginator-1.2.17-sources.jar!/com/github/miemiedev/mybatis/paginator/dialect/MySQLDialect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.github.miemiedev/mybatis-paginator/1.2.17/e8fb4399681a78a87a962ca0dc41e0c0dd9dd719/mybatis-paginator-1.2.17-sources.jar!/com/github/miemiedev/mybatis/paginator/domain/Order.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.github.miemiedev/mybatis-paginator/1.2.17/e8fb4399681a78a87a962ca0dc41e0c0dd9dd719/mybatis-paginator-1.2.17-sources.jar!/com/github/miemiedev/mybatis/paginator/domain/PageBounds.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.github.miemiedev/mybatis-paginator/1.2.17/e8fb4399681a78a87a962ca0dc41e0c0dd9dd719/mybatis-paginator-1.2.17-sources.jar!/com/github/miemiedev/mybatis/paginator/jackson2/PageListJsonMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.github.miemiedev/mybatis-paginator/1.2.17/e8fb4399681a78a87a962ca0dc41e0c0dd9dd719/mybatis-paginator-1.2.17-sources.jar!/com/github/miemiedev/mybatis/paginator/jackson2/PageListJsonSerializer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.github.miemiedev/mybatis-paginator/1.2.17/e8fb4399681a78a87a962ca0dc41e0c0dd9dd719/mybatis-paginator-1.2.17-sources.jar!/com/github/miemiedev/mybatis/paginator/springmvc/PageListAttrHandlerInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/SecurityUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/AbstractAuthenticator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/AuthenticationToken.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/UsernamePasswordToken.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/credential/HashedCredentialsMatcher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/credential/SimpleCredentialsMatcher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/pam/ModularRealmAuthenticator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/cache/Cache.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/cache/CacheManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/cache/CacheManagerAware.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/cache/MapCache.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/cache/MemoryConstrainedCacheManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/codec/Base64.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/codec/CodecSupport.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/crypto/JcaCipherService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/crypto/hash/SimpleHash.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/io/DefaultSerializer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/mgt/AbstractRememberMeManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/mgt/AuthenticatingSecurityManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/mgt/CachingSecurityManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/mgt/DefaultSecurityManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/mgt/DefaultSubjectDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/mgt/SessionsSecurityManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/mgt/SubjectFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/realm/AuthenticatingRealm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/realm/AuthorizingRealm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/realm/CachingRealm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/ProxiedSession.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/AbstractNativeSessionManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/AbstractValidatingSessionManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/DefaultSessionManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/DelegatingSession.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/eis/AbstractSessionDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/eis/CachingSessionDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/eis/EnterpriseCacheSessionDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/eis/SessionDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/subject/Subject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/subject/support/DelegatingSubject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/subject/support/SubjectCallable.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/util/MapContext.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/util/StringUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-spring/1.3.2/6a4ca798b7fb09ab7ae160ad78022a9120d29f22/shiro-spring-1.3.2-sources.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/env/EnvironmentLoader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/env/IniWebEnvironment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/filter/AccessControlFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/filter/PathMatchingFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/filter/authc/AuthenticatingFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/filter/authc/FormAuthenticationFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/filter/authc/LogoutFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/filter/mgt/SimpleNamedFilterList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/mgt/CookieRememberMeManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/mgt/DefaultWebSecurityManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/servlet/AbstractShiroFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/servlet/AdviceFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/servlet/Cookie.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/servlet/IniShiroFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/servlet/OncePerRequestFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/servlet/ProxiedFilterChain.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/servlet/ShiroFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/servlet/ShiroHttpSession.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/servlet/SimpleCookie.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/session/mgt/DefaultWebSessionManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/subject/WebSubject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/subject/support/DefaultWebSubjectContext.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.2/b72f6f89267846a2e7e2e8fe9b523cdf672014b7/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/util/WebUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.1.Final/f381689ad0c757811f1dc3abafeb3382f154a33b/hibernate-validator-5.2.1.Final-sources.jar!/org/hibernate/validator/internal/util/privilegedactions/LoadClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.0/3016ffd7d9d008bf6b230d01de711f9da046d68e/mybatis-3.4.0-sources.jar!/org/apache/ibatis/plugin/Interceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.0/3016ffd7d9d008bf6b230d01de711f9da046d68e/mybatis-3.4.0-sources.jar!/org/apache/ibatis/plugin/InterceptorChain.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.0/3016ffd7d9d008bf6b230d01de711f9da046d68e/mybatis-3.4.0-sources.jar!/org/apache/ibatis/plugin/Intercepts.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.0/3016ffd7d9d008bf6b230d01de711f9da046d68e/mybatis-3.4.0-sources.jar!/org/apache/ibatis/plugin/Invocation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.0/3016ffd7d9d008bf6b230d01de711f9da046d68e/mybatis-3.4.0-sources.jar!/org/apache/ibatis/plugin/Plugin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.0/3016ffd7d9d008bf6b230d01de711f9da046d68e/mybatis-3.4.0-sources.jar!/org/apache/ibatis/plugin/Signature.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.0/3016ffd7d9d008bf6b230d01de711f9da046d68e/mybatis-3.4.0-sources.jar!/org/apache/ibatis/session/RowBounds.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/1.6.0.RELEASE/60b94e15af997689a1763599c75ddc1c9a2d8e3d/spring-data-redis-1.6.0.RELEASE-sources.jar!/org/springframework/data/redis/core/DefaultValueOperations.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/1.6.0.RELEASE/60b94e15af997689a1763599c75ddc1c9a2d8e3d/spring-data-redis-1.6.0.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/1.6.0.RELEASE/60b94e15af997689a1763599c75ddc1c9a2d8e3d/spring-data-redis-1.6.0.RELEASE-sources.jar!/org/springframework/data/redis/core/StringRedisTemplate.java">
           <value>
             <set />
           </value>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!---->
+<mapper namespace="com.chm.shop.mapper.RoleMapper">
+
+    <!--the base resultMap-->
+    <resultMap id="BaseResultMap" type="com.chm.shop.manager.role.dataobject.RoleDO" >
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="login_id" property="loginId" />
+        <result column="salt" property="salt" />
+    </resultMap>
+
+    <!--the Base_Column_List-->
+    <sql id="Base_Column_List" >
+        id, name, login_id, salt
+    </sql>
+
+    <!--新增-->
+    <insert id="insert" parameterType="com.chm.shop.manager.role.dataobject.RoleDO" >
+        INSERT INTO t_role (id, name, login_id, salt)
+        VALUES (#{id}, #{name}, #{loginId}, #{salt})
+    </insert>
+
+    <!--主键查询-->
+    <select id="getById" resultMap="BaseResultMap" >
+        SELECT 
+        <include refid="Base_Column_List"/>
+        FROM t_role
+        WHERE id = #{id}
+    </select>
+
+    <!--列表查询-->
+    <select id="list" resultMap="BaseResultMap" >
+        SELECT 
+        <include refid="Base_Column_List"/>
+        FROM t_role
+    </select>
+
+    <!--更新-->
+    <update id="update" >
+        UPDATE t_role
+        <set>
+            <if test="id != null">
+                id = #{id},
+            </if>
+            <if test="name != null">
+                name = #{name},
+            </if>
+            <if test="loginId != null">
+                login_id = #{loginId},
+            </if>
+            <if test="salt != null">
+                salt = #{salt},
+            </if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <!--根据主键删除-->
+    <delete id="delById" >
+        DELETE FROM t_role
+        WHERE id = #{id}
+    </delete>
+
+</mapper>
