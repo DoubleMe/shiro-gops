@@ -14,6 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import java.io.Serializable;
@@ -30,6 +31,8 @@ public class SystemLogoutFilter extends LogoutFilter {
 
     private final static Logger LOGGER = LoggerFactory.getLogger(SystemLogoutFilter.class);
 
+    @Resource
+    private SessionIdCacheManager sessionIdCacheManager;
 
 
     @Override
@@ -46,35 +49,7 @@ public class SystemLogoutFilter extends LogoutFilter {
             redirectUrl  = kicKoutUrl(redirectUrl);
         }
         UserToken userDO = (UserToken) subject.getPrincipal();
-//        Deque<Serializable> queue = (Deque<Serializable>)commonCacheManager.getValue(RedisKeys.getCurrUserKey(userDO.getLoginId()));
-//        Serializable id = subject.getSession().getId();
-//
-//        if (queue != null){
-//            queue.remove(id);
-//        }
-//        commonCacheManager.setValue(RedisKeys.getCurrUserKey(userDO.getLoginId()),queue);
-//
-//        Session session = subject.getSession();
-//        //被踢出用户直接执行后续步骤
-//        Boolean marker = (Boolean) session.getAttribute(CommonConstants.KICKOUT_STATUS);
-//        //用户是被强制踢出
-//        if (marker != null && marker){
-//            redirectUrl  = kicKoutUrl(redirectUrl);
-//        }else {
-//            //退出时删除在线用户缓存
-//            Object value = commonCacheManager.getValue(RedisKeys.getOnlineUserKey());
-//            if (value != null){
-//                List<UserToken> userTokenList = (List<UserToken>)value;
-//                Iterator<UserToken> iterator = userTokenList.iterator();
-//                while (iterator.hasNext()){
-//                    UserToken userToken = iterator.next();
-//                    if (userToken.getUserId().equals(UserTokenManager.getUserId())){
-//                        iterator.remove();
-//                    }
-//                }
-//                commonCacheManager.setValue(RedisKeys.getOnlineUserKey(),userTokenList);
-//            }
-//        }
+        sessionIdCacheManager.delete(RedisKeys.getCurrUserKey(userDO.getLoginId()));
 
         try {
             subject.logout();
