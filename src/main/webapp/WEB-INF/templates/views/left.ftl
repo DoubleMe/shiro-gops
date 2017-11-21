@@ -4,7 +4,16 @@
         <ul class="layui-nav layui-nav-tree"  lay-filter="test" style="margin-left: 10px">
             <#if menu??>
                 <#list menu as item>
-                    <li class="layui-nav-item <#if item.id == currMid>layui-this</#if>"><a href="${item.url}?currMid=${item.id}"><i class="layui-icon">${item.icon}</i>&nbsp;${item.name}</a></li>
+                    <li class="layui-nav-item <#if item.id == currMid>layui-this</#if> <#if item.selected>layui-nav-itemed</#if> ">
+                        <a href="<#if item.url != '#'></#if>${item.url}?currMid=${item.id}"><i class="layui-icon">${item.icon}</i>&nbsp;${item.name}</a>
+                        <#if item.children?? && item.children?size gt 0>
+                            <dl class="layui-nav-child">
+                                <#list item.children as child>
+                                    <dd><a class="<#if child.id == currMid>layui-this</#if>" href="${child.url}?currMid=${child.id}"><span style="margin-left: 25px"></span>${child.name}</a></dd>
+                                </#list>
+                            </dl>
+                        </#if>
+                    </li>
                 </#list>
             </#if>
             <#--<li class="layui-nav-item"><a href="/menu/list"><i class="layui-icon">&#xe629;</i>&nbsp;角色管理</a></li>-->

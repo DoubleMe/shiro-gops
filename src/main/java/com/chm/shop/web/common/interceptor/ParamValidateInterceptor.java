@@ -1,6 +1,7 @@
 package com.chm.shop.web.common.interceptor;
 
 import com.chm.shop.app.common.anno.MyValid;
+import com.chm.shop.app.constants.SystemConstants;
 import com.chm.shop.app.util.ResponseUtils;
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
@@ -23,16 +24,7 @@ import java.util.*;
 public class ParamValidateInterceptor implements MethodInterceptor {
 
     private final static Logger LOGGER = LoggerFactory.getLogger(ParamValidateInterceptor.class);
-    //换行
-    private static final String lineSeparator;
 
-    static {
-        String ls = System.getProperty("line.separator"); //$NON-NLS-1$
-        if (ls == null) {
-            ls = "\n"; //$NON-NLS-1$
-        }
-        lineSeparator = ls;
-    }
 
     @Override
     public Object invoke(MethodInvocation invocation) throws Throwable {
@@ -89,7 +81,7 @@ public class ParamValidateInterceptor implements MethodInterceptor {
             sb.append("参数校验失败：").append(next.getRootBean())
                     .append("#filed : ").append(next.getPropertyPath())
                     .append("---").append(next.getMessage());
-            sb.append(lineSeparator);
+            sb.append(SystemConstants.lineSeparator);
 
             msg.add(next.getMessage());
             LOGGER.info(sb.toString());

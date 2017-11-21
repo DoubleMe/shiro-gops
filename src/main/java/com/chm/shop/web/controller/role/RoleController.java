@@ -2,14 +2,17 @@ package com.chm.shop.web.controller.role;
 
 import com.chm.shop.app.UserTokenManager;
 import com.chm.shop.app.common.anno.MyValid;
+import com.chm.shop.app.common.anno.SysLog;
+import com.chm.shop.app.common.enums.SystemModuleEnum;
 import com.chm.shop.app.common.reponse.PageResponse;
 import com.chm.shop.app.common.reponse.Response;
-import com.chm.shop.manager.menu.MenuService;
+import com.chm.shop.app.constants.MessageConstats;
+import com.chm.shop.app.util.ResponseUtils;
 import com.chm.shop.manager.menu.dataobject.MenuDO;
-import com.chm.shop.manager.menu.query.MenuQuery;
 import com.chm.shop.manager.role.RoleService;
 import com.chm.shop.manager.role.dataobject.RoleDO;
 import com.chm.shop.manager.role.query.RoleQuery;
+import com.chm.shop.web.common.cache.MenuCacheService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -32,6 +35,9 @@ public class RoleController {
     @Resource
     private RoleService roleService;
 
+    @Resource
+    private MenuCacheService menuCacheService;
+
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public String list(RoleQuery query, Model model) {
 
@@ -51,7 +57,7 @@ public class RoleController {
         return pageResponse;
     }
 
-
+    @SysLog(message = "保存角色",module = SystemModuleEnum.ROLE)
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     @ResponseBody
     public Object save(@MyValid RoleDO roleDO) {
@@ -66,13 +72,22 @@ public class RoleController {
 
         return save;
     }
-
-    @RequestMapping(value = "/del/{id}", method = RequestMethod.POST)
+    @SysLog(message = "删除角色",module = SystemModuleEnum.ROLE)
+    @RequestMapping(value = "/del", method = RequestMethod.POST)
     @ResponseBody
-    public Object del(@PathVariable Long id) {
+    public Object del(Long id) {
 
         Response<Boolean> response = roleService.delById(id);
 
         return response;
+    }
+    @SysLog(message = "刷新角色权限",module = SystemModuleEnum.ROLE)
+    @RequestMapping(value = "/refresh", method = RequestMethod.POST)
+    @ResponseBody
+    public Object refresh(String roleId) {
+
+        menuCacheService.refreshMenu(roleId);
+
+        return ResponseUtils.successResponse(null, MessageConstats.SUCCESS);
     }
 }

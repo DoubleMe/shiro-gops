@@ -3,6 +3,7 @@ package com.chm.shop.manager.menu.impl;
 import com.chm.shop.app.common.reponse.PageResponse;
 import com.chm.shop.app.common.reponse.Response;
 import com.chm.shop.app.common.reponse.ResponseCode;
+import com.chm.shop.app.constants.MessageConstats;
 import com.chm.shop.app.util.PageUtils;
 import com.chm.shop.app.util.ResponseUtils;
 import com.chm.shop.manager.menu.MenuService;
@@ -39,29 +40,32 @@ public class MenuServiceImpl implements MenuService {
 
         PageList<MenuDO> list = menuMapper.list(menuQuery, menuQuery.getPageBounds());
 
-        return ResponseUtils.pageResponse(ResponseCode.SUCCESS, "成功", list);
+        return ResponseUtils.pageResponse(ResponseCode.SUCCESS, MessageConstats.SUCCESS, list);
     }
 
     @Override
     public Response<MenuDO> save(MenuDO menuDO) {
 
+        String reMsg;
         if (menuDO.getId() != null) {
+            reMsg = MessageConstats.UPDATE_SUCCESS;
             menuMapper.update(menuDO);
         } else {
+            reMsg = MessageConstats.ADD_SUCCESS;
             menuMapper.insert(menuDO);
         }
-        return ResponseUtils.successResponse(menuDO, "新增成功");
+        return ResponseUtils.successResponse(menuDO, reMsg);
     }
 
     @Override
     public Response<Boolean> delete(Long id) {
         menuMapper.delById(id);
 
-        return ResponseUtils.successResponse(Boolean.TRUE, "删除成功");
+        return ResponseUtils.successResponse(Boolean.TRUE, MessageConstats.DELETE_SUCCESS);
     }
 
     @Override
     public Response<MenuDO> detail(Long id) {
-        return ResponseUtils.successResponse(menuMapper.getById(id), "");
+        return ResponseUtils.successResponse(menuMapper.getById(id), MessageConstats.SUCCESS);
     }
 }

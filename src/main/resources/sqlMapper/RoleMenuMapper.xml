@@ -68,9 +68,9 @@
     <!--列表查询-->
     <select id="listMenu" resultType="com.chm.shop.manager.menu.dataobject.MenuDO" >
         SELECT
-        menu.id,menu.name,menu.url
+        menu.id,menu.name,menu.url,menu.parent_id as parentId,menu.type,menu.icon
         FROM t_role_menu rm
-        LEFT JOIN t_menu menu ON rm.menu_id = menu.id
+        RIGHT JOIN t_menu menu ON rm.menu_id = menu.id
         WHERE rm.role_id = #{roleId}
 
     </select>

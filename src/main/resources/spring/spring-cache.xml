@@ -24,13 +24,21 @@
 	        <property name="database" value="0" />
 	        <constructor-arg index="0" ref="jedisPoolConfig" />
 	</bean>
+
+	<bean id="stringRedisSerializer"
+		  class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
 	<!-- redis 模板 -->
+
 	<bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
 	        <property name="connectionFactory" ref="connectionFactory"/>
+	        <property name="keySerializer" ref="stringRedisSerializer"/>
 	</bean>
 
 	<!-- 通用缓存模板-->
-	<bean id="commonCacheManager" class="com.chm.shop.app.cache.CommonCacheManager">
+	<bean id="baseCache" class="com.chm.shop.app.cache.BaseCache">
 		<property name="template" ref="redisTemplate"/>
 	</bean>
+    <bean id="sessionIdCacheManager" class="com.chm.shop.app.cache.SessionIdCacheManager" parent="baseCache">
+
+    </bean>
 </beans>

@@ -13,6 +13,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/SessionManager.java">
           <value>
             <set />
@@ -83,7 +88,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mybatis-generator/src/main/java/com/chm/generator/configuration/ConfigurationParser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mybatis-generator/src/main/java/com/chm/generator/generate/AbstractGenerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mybatis-generator/src/main/resources/config/config.xml">
           <value>
             <set />
           </value>
@@ -98,6 +113,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/.idea/modules.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.idea/modules/shopping-mall.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/build.gradle">
           <value>
             <set />
@@ -108,7 +133,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/UserToken.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/UserTokenManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/cache/BaseCache.java">
           <value>
             <set />
           </value>
@@ -124,6 +159,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/cache/RedisKeys.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/cache/SessionIdCacheManager.java">
           <value>
             <set />
           </value>
@@ -158,12 +198,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/anno/SysLog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/anno/Vaild.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/anno/Valid.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/enums/SystemModuleEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/enums/SystemMoudle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/common/enums/SystemMoudleEnum.java">
           <value>
             <set />
           </value>
@@ -204,6 +264,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/constants/MessageConstats.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/constants/SystemConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/constants/SystenConstants.java">
           <value>
             <set />
           </value>
@@ -293,12 +363,67 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/spring/SpringContext.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/thread/Task.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/thread/ThreadManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/thread/ThreadPoolConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/thread/ThreadPoolHolder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/thread/Worker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/thread/impl/ApiLogWorker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/thread/impl/LogWorker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/thread/impl/SqlLogWorker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/thread/impl/Worker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/util/AESUtils.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/util/JsonUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/app/util/MapUtils.java">
           <value>
             <set />
           </value>
@@ -343,6 +468,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/log/LogService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/log/dataobject/LogApiDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/log/dataobject/LogSqlDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/log/impl/LogServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/log/query/LogApiQuery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/menu/MenuManager.java">
           <value>
             <set />
@@ -364,6 +514,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/menu/query/MenuQuery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/online/OnlineService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/manager/online/impl/OnlineServiceImpl.java">
           <value>
             <set />
           </value>
@@ -473,6 +633,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/mapper/LogApiMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/mapper/LogSqlMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/mapper/MenuMapper.java">
           <value>
             <set />
@@ -508,6 +678,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/mapper/logApiMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/mapper/logSqlMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/common/MySimpleCookie.java">
           <value>
             <set />
@@ -523,7 +703,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/common/cache/MenuCacheService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/common/interceptor/ExceptionResolver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/common/interceptor/LogInterceptor.java">
           <value>
             <set />
           </value>
@@ -534,6 +724,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/common/interceptor/ParamValidateInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/common/interceptor/SqlInterceptor.java">
           <value>
             <set />
           </value>
@@ -563,7 +758,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/controller/log/LogController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/controller/menu/MenuController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chm/shop/web/controller/online/OnlineController.java">
           <value>
             <set />
           </value>
@@ -589,6 +794,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/config/jdbc.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/config/log.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/config/mybatis-config.xml">
           <value>
             <set />
           </value>
@@ -633,6 +848,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/sqlMapper/LogSqlMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/sqlMapper/MenuMapper.xml">
           <value>
             <set />
@@ -668,6 +888,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/sqlMapper/logApiMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/sqlMapper/logSqlMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/body.ftl">
           <value>
             <set />
@@ -698,6 +928,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/log/apiList.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/log/list.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/log/sqlList.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/login.ftl">
           <value>
             <set />
@@ -709,6 +954,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/noPermission.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/notFound.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/views/online/list.ftl">
           <value>
             <set />
           </value>
@@ -773,7 +1028,67 @@
             <set />
           </value>
         </entry>
+        <entry key="D:/workspace/complete-flow-portal/src/main/java/com/complete/flow/portal/controller/quanliucheng/LoginController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="D:/workspace/complete-flow-portal/src/main/java/com/complete/flow/portal/controller/quanliucheng/hospital/HospitalController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/common/anno/CertNo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/common/anno/constraint/CertNoConstraintValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/common/utils/ExcelParseUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/common/utils/ExportInternalUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/common/utils/JsonUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/common/utils/PoiUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/common/utils/ValidUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/manager/cache/RedisConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/manager/doctor/DoctorInfoManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/manager/doctor/impl/DoctorInfoManagerImpl.java">
           <value>
             <set />
           </value>
@@ -793,6 +1108,36 @@
             <set />
           </value>
         </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/manager/search/hospital/HospitalManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/manager/search/hospital/impl/HospitalManagerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/manager/usermanagerinfo/UserManagerInfoManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/core/manager/usermanagerinfo/impl/UserManagerInfoManagerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/dal/dataobject/DoctorCertDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/dal/mapper/ManagerInfoMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/biz/dal/mapper/OrgInfoMapper.java">
           <value>
             <set />
@@ -804,6 +1149,41 @@
           </value>
         </entry>
         <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/web/common/interceptor/MvcSignInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/web/controllers/ops/batch/BatchDoctorController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/web/controllers/ops/batch/BatchDoctorErrorModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/web/controllers/ops/batch/BatchDoctorModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/web/controllers/ops/batch/BatchDoctorerrorModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/web/controllers/ops/doctor/DoctorController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/web/controllers/ops/doctor/param/DoctorParam.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/java/com/guahao/local/project/web/controllers/ops/hospital/HospitalController.java">
           <value>
             <set />
           </value>
@@ -823,6 +1203,16 @@
             <set />
           </value>
         </entry>
+        <entry key="D:/workspace/local-project/src/main/resources/spring/cache-services.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/resources/sqlmapper/DoctorInfoMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="D:/workspace/local-project/src/main/resources/sqlmapper/ManagerInfoMapper.xml">
           <value>
             <set />
@@ -833,7 +1223,32 @@
             <set />
           </value>
         </entry>
+        <entry key="D:/workspace/local-project/src/main/webapp/WEB-INF/templates/macro/macros.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/webapp/WEB-INF/templates/views/ops/doctor/batch.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/webapp/WEB-INF/templates/views/ops/doctor/list.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/webapp/WEB-INF/templates/views/ops/doctor/register.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="D:/workspace/local-project/src/main/webapp/WEB-INF/templates/views/ops/org/hoslist.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/webapp/WEB-INF/templates/views/ops/org/portal.ftl">
           <value>
             <set />
           </value>
@@ -844,6 +1259,16 @@
           </value>
         </entry>
         <entry key="D:/workspace/local-project/src/main/webapp/WEB-INF/templates/views/ops/stat/list.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/webapp/WEB-INF/templates/views/ops/usermanager/add.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/local-project/src/main/webapp/WEB-INF/templates/views/ops/usermanager/list.ftl">
           <value>
             <set />
           </value>
@@ -873,6 +1298,16 @@
             <set />
           </value>
         </entry>
+        <entry key="D:/workspace/yuhuan-health-schedule/src/main/resources/config/config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/yuhuan-health-schedule/src/main/resources/spring/servlet-context.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="D:/workspace/yuhuan-health-schedule/src/main/resources/sqlmapper/InsuranceUserMapper.xml">
           <value>
             <set />
@@ -884,6 +1319,46 @@
           </value>
         </entry>
         <entry key="D:/workspace/yuhuan-health-schedule/src/test/java/com/yuhuan/health/manager/RankInfo/RankInfoManagerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/yuhuan-health-web/src/main/java/com/guahao/yuhuan/web/controllers/app/insuranceuser/InsuranceUserAppController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/yuhuan-health-web/src/main/java/com/guahao/yuhuan/web/controllers/ops/excel/ExcelController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/yuhuan-health-web/src/main/java/com/guahao/yuhuan/web/controllers/ops/excel/process/ExcelProcess.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/yuhuan-health-web/src/main/java/com/guahao/yuhuan/web/controllers/ops/insurance/user/InsuranceUserOpsController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.1/c0063bb450c53bfa3136dc868e1062d714187e2/jackson-core-2.6.1-sources.jar!/com/fasterxml/jackson/core/json/UTF8JsonGenerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.1/c0063bb450c53bfa3136dc868e1062d714187e2/jackson-core-2.6.1-sources.jar!/com/fasterxml/jackson/core/type/TypeReference.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.6.1/56c55af2ce78286195b16521a82b331cc92cae0/jackson-databind-2.6.1-sources.jar!/com/fasterxml/jackson/databind/ObjectWriter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.6.1/56c55af2ce78286195b16521a82b331cc92cae0/jackson-databind-2.6.1-sources.jar!/com/fasterxml/jackson/databind/type/TypeFactory.java">
           <value>
             <set />
           </value>
@@ -933,6 +1408,86 @@
             <set />
           </value>
         </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.greenline.framework/greenline-framework-http/1.0.0-SNAPSHOT/5fcdedf1644d5cdc11bfd1036a28dbb43f29c86/greenline-framework-http-1.0.0-SNAPSHOT.jar!/com/greenline/framework/http/impl/HttpClientManagerImpl.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.greenline.guahao/guahao-user-model-share/3.3.28-SNAPSHOT/f83b0fe235fd3ceb231c55754b1a09eb30ece651/guahao-user-model-share-3.3.28-SNAPSHOT-sources.jar!/com/greenline/guahao/user/model/bo/UserAppDeviceBO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.greenline.local/commons-utils/2.0.0-SNAPSHOT/2e4a628ec995df2b09abe0e612caf4fcab9fd804/commons-utils-2.0.0-SNAPSHOT-sources.jar!/com/greenline/local/commons/util/ClazzUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.greenline.local/commons-utils/2.0.0-SNAPSHOT/2e4a628ec995df2b09abe0e612caf4fcab9fd804/commons-utils-2.0.0-SNAPSHOT-sources.jar!/com/greenline/local/commons/util/codec/core/Encrypted.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.3/170d03db4cb48be2f8f35ce3243d62c4b2204e2e/commons-beanutils-1.8.3-sources.jar!/org/apache/commons/beanutils/BeanMap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.3/170d03db4cb48be2f8f35ce3243d62c4b2204e2e/commons-beanutils-1.8.3-sources.jar!/org/apache/commons/beanutils/BeanUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.3/170d03db4cb48be2f8f35ce3243d62c4b2204e2e/commons-beanutils-1.8.3-sources.jar!/org/apache/commons/collections/ArrayStack.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.3.1/a1fa20f7f3ad210f4b2eb51b63be3f0273be263a/commons-fileupload-1.3.1-sources.jar!/org/apache/commons/fileupload/disk/DiskFileItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.3.1/a1fa20f7f3ad210f4b2eb51b63be3f0273be263a/commons-fileupload-1.3.1-sources.jar!/org/apache/commons/fileupload/util/Streams.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/7d49b53caed9bd81d172807c3e096d24f3c57090/validation-api-1.1.0.Final-sources.jar!/javax/validation/Constraint.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/7d49b53caed9bd81d172807c3e096d24f3c57090/validation-api-1.1.0.Final-sources.jar!/javax/validation/ConstraintValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/7d49b53caed9bd81d172807c3e096d24f3c57090/validation-api-1.1.0.Final-sources.jar!/javax/validation/constraints/Digits.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/7d49b53caed9bd81d172807c3e096d24f3c57090/validation-api-1.1.0.Final-sources.jar!/javax/validation/constraints/Future.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/7d49b53caed9bd81d172807c3e096d24f3c57090/validation-api-1.1.0.Final-sources.jar!/javax/validation/constraints/Size.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.commons/commons-pool2/2.4.2/2c9dcae4975caff05a627b99fae76e6fef2a3a0e/commons-pool2-2.4.2-sources.jar!/org/apache/commons/pool2/PoolUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.poi/poi/3.13/a400503268b807b06ce712bb99ae47710c21fb55/poi-3.13-sources.jar!/org/apache/poi/hssf/util/HSSFColor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/SecurityUtils.java">
           <value>
             <set />
@@ -969,6 +1524,26 @@
           </value>
         </entry>
         <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/pam/ModularRealmAuthenticator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authz/ModularRealmAuthorizer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authz/Permission.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authz/permission/AllPermission.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authz/permission/WildcardPermission.java">
           <value>
             <set />
           </value>
@@ -1033,6 +1608,11 @@
             <set />
           </value>
         </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/mgt/AuthorizingSecurityManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/mgt/CachingSecurityManager.java">
           <value>
             <set />
@@ -1073,7 +1653,17 @@
             <set />
           </value>
         </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/realm/SimpleAccountRealm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/ProxiedSession.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/SessionListener.java">
           <value>
             <set />
           </value>
@@ -1098,6 +1688,11 @@
             <set />
           </value>
         </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/SimpleSession.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/eis/AbstractSessionDAO.java">
           <value>
             <set />
@@ -1114,6 +1709,11 @@
           </value>
         </entry>
         <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/eis/SessionDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/subject/PrincipalCollection.java">
           <value>
             <set />
           </value>
@@ -1144,6 +1744,11 @@
           </value>
         </entry>
         <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/util/StringUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.2/a3e3f294218a54370e006de4c09f5e9d57e7a4dc/shiro-core-1.3.2-sources.jar!/org/apache/shiro/util/ThreadContext.java">
           <value>
             <set />
           </value>
@@ -1268,7 +1873,77 @@
             <set />
           </value>
         </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.1.Final/f381689ad0c757811f1dc3abafeb3382f154a33b/hibernate-validator-5.2.1.Final-sources.jar!/org/hibernate/validator/constraints/CreditCardNumber.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.1.Final/f381689ad0c757811f1dc3abafeb3382f154a33b/hibernate-validator-5.2.1.Final-sources.jar!/org/hibernate/validator/constraints/Email.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.1.Final/f381689ad0c757811f1dc3abafeb3382f154a33b/hibernate-validator-5.2.1.Final-sources.jar!/org/hibernate/validator/constraints/Length.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.1.Final/f381689ad0c757811f1dc3abafeb3382f154a33b/hibernate-validator-5.2.1.Final-sources.jar!/org/hibernate/validator/constraints/NotBlank.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.1.Final/f381689ad0c757811f1dc3abafeb3382f154a33b/hibernate-validator-5.2.1.Final-sources.jar!/org/hibernate/validator/constraints/ParameterScriptAssert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.1.Final/f381689ad0c757811f1dc3abafeb3382f154a33b/hibernate-validator-5.2.1.Final-sources.jar!/org/hibernate/validator/constraints/Range.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.1.Final/f381689ad0c757811f1dc3abafeb3382f154a33b/hibernate-validator-5.2.1.Final-sources.jar!/org/hibernate/validator/constraints/br/CNPJ.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.1.Final/f381689ad0c757811f1dc3abafeb3382f154a33b/hibernate-validator-5.2.1.Final-sources.jar!/org/hibernate/validator/internal/util/privilegedactions/LoadClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.3.0/2022be53ff19021a08c89fe58d52fdb28c654e75/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/SqlSessionTemplate.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.0/3016ffd7d9d008bf6b230d01de711f9da046d68e/mybatis-3.4.0-sources.jar!/org/apache/ibatis/builder/xml/mybatis-3-config.dtd">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.0/3016ffd7d9d008bf6b230d01de711f9da046d68e/mybatis-3.4.0-sources.jar!/org/apache/ibatis/exceptions/ExceptionFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.0/3016ffd7d9d008bf6b230d01de711f9da046d68e/mybatis-3.4.0-sources.jar!/org/apache/ibatis/executor/ErrorContext.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.0/3016ffd7d9d008bf6b230d01de711f9da046d68e/mybatis-3.4.0-sources.jar!/org/apache/ibatis/executor/Executor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.0/3016ffd7d9d008bf6b230d01de711f9da046d68e/mybatis-3.4.0-sources.jar!/org/apache/ibatis/executor/statement/StatementHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.0/3016ffd7d9d008bf6b230d01de711f9da046d68e/mybatis-3.4.0-sources.jar!/org/apache/ibatis/mapping/BoundSql.java">
           <value>
             <set />
           </value>
@@ -1308,6 +1983,11 @@
             <set />
           </value>
         </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.0/3016ffd7d9d008bf6b230d01de711f9da046d68e/mybatis-3.4.0-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/1.6.0.RELEASE/60b94e15af997689a1763599c75ddc1c9a2d8e3d/spring-data-redis-1.6.0.RELEASE-sources.jar!/org/springframework/data/redis/core/DefaultValueOperations.java">
           <value>
             <set />
@@ -1319,6 +1999,31 @@
           </value>
         </entry>
         <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/1.6.0.RELEASE/60b94e15af997689a1763599c75ddc1c9a2d8e3d/spring-data-redis-1.6.0.RELEASE-sources.jar!/org/springframework/data/redis/core/StringRedisTemplate.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.5.RELEASE/436d3d6181bbf498d8409525b449eb4ed94a2c5f/spring-aop-4.2.5.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.5.RELEASE/436d3d6181bbf498d8409525b449eb4ed94a2c5f/spring-aop-4.2.5.RELEASE-sources.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.5.RELEASE/251207b29f0f38f61e3495a2f7fb053cf1bfe8c/spring-core-4.2.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.1.RELEASE/edffee0eaa510a80f20973a65f5c4049198c6fa/spring-web-4.2.1.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.1.RELEASE/edffee0eaa510a80f20973a65f5c4049198c6fa/spring-web-4.2.1.RELEASE-sources.jar!/org/springframework/web/multipart/commons/CommonsMultipartFile.java">
           <value>
             <set />
           </value>

@@ -17,8 +17,8 @@ public class RedisKeys {
         return "sessionid:" + key;
     }
 
-    public static String getOnlineUserKey(String key) {
-        return "online:user:" + key;
+    public static String getOnlineUserKey() {
+        return "online:user";
     }
 
     public static String getMenuKey(String key) {
@@ -27,5 +27,9 @@ public class RedisKeys {
 
     public static String getCurrMenuKey(String key) {
         return "curr:menu:" + key;
+    }
+
+    public static String getCurrUserKey(String key) {
+        return "curr:user:" + key;
     }
 }

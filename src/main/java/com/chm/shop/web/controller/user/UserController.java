@@ -1,6 +1,8 @@
 package com.chm.shop.web.controller.user;
 
 import com.chm.shop.app.common.anno.MyValid;
+import com.chm.shop.app.common.anno.SysLog;
+import com.chm.shop.app.common.enums.SystemModuleEnum;
 import com.chm.shop.app.common.reponse.PageResponse;
 import com.chm.shop.app.common.reponse.Response;
 import com.chm.shop.app.util.Md5Utils;
@@ -65,6 +67,7 @@ public class UserController {
         return ResponseUtils.successResponse("/login","注册成功");
     }
 
+    @SysLog(message = "分配用户角色",module = SystemModuleEnum.USER)
     @RequestMapping(value = "/role/save", method = RequestMethod.POST)
     @ResponseBody
     public Object saveRole(@MyValid UserRoleDO userRoleDO) throws Exception {

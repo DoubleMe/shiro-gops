@@ -52,7 +52,7 @@ public class IndexController {
 
         attr.addFlashAttribute("kickout", kickout);
 
-        return "redirect:/toLogin";
+        return "redirect:/index/toLogin";
     }
 
     /**
@@ -73,13 +73,13 @@ public class IndexController {
     @RequestMapping(value = "/index/login", method = RequestMethod.POST)
     public String login(UserLoginVO vo, Model model) {
 
-        boolean rememberMe = true;
-        if (vo.getRememberMe() != null && vo.getRememberMe() == 1) {
-            rememberMe = false;
-        }
+        boolean rememberMe = false;
+//        if (vo.getRememberMe() != null && vo.getRememberMe() == 1) {
+//            rememberMe = false;
+//        }
         Response<String> login = shiroService.login(vo.getUserName(), vo.getUserPwd(), rememberMe);
         if (login.isSuccess()) {
-            return "redirect:/main";
+            return "/index";
         }
 
         model.addAttribute("msg", login.getMessage());

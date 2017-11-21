@@ -12,15 +12,15 @@ import java.util.concurrent.TimeUnit;
  * @date 2014-6-11
  * @Version V1.0
  */
-public class CommonCacheManager<K, V>{
+public class BaseCache<K, V>{
 
-    private RedisTemplate<K,V> template;
+    protected RedisTemplate<K,V> template;
     /**
      * 默认过期时间： 24小时
      */
     private static final Long DEFAULT_EXPIRE = 24 * 60 * 60L;
 
-    public CommonCacheManager() {
+    public BaseCache() {
 
     }
 

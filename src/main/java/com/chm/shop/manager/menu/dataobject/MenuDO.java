@@ -5,6 +5,7 @@ import org.hibernate.validator.constraints.NotBlank;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * @author chen-hongmin
@@ -14,17 +15,23 @@ public class MenuDO implements Serializable {
 
     private Long id;
 
-    @NotBlank(message = "链接不能为空")
     private String url;
+
     @NotBlank(message = "菜单名称不能为空")
     private String name;
 
     @Column(name = "parent_id")
     private Long parentId;
 
+    private String parentName;
+
     private String icon;
     @NotNull(message = "菜单类型不能为空")
     private Integer type;
+
+    private List<MenuDO> children;
+
+    private boolean selected;
 
     public Long getId() {
         return id;
@@ -51,7 +58,7 @@ public class MenuDO implements Serializable {
     }
 
     public Long getParentId() {
-        return parentId;
+        return parentId == null ? 0 : parentId;
     }
 
     public void setParentId(Long parentId) {
@@ -72,5 +79,30 @@ public class MenuDO implements Serializable {
 
     public void setType(Integer type) {
         this.type = type;
+    }
+
+
+    public String getParentName() {
+        return parentName;
+    }
+
+    public void setParentName(String parentName) {
+        this.parentName = parentName;
+    }
+
+    public List<MenuDO> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<MenuDO> children) {
+        this.children = children;
+    }
+
+    public boolean isSelected() {
+        return selected;
+    }
+
+    public void setSelected(boolean selected) {
+        this.selected = selected;
     }
 }

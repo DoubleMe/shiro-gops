@@ -10,6 +10,8 @@
 
     <!-- 验证拦截器 -->
     <bean id="validateInterceptor" class="com.chm.shop.web.common.interceptor.ParamValidateInterceptor"/>
+    <!-- api日志拦截器 -->
+    <bean id="logInterceptor" class="com.chm.shop.web.common.interceptor.LogInterceptor"/>
     <!-- 异常拦截器 -->
     <bean id="exceptionResolver" class="com.chm.shop.web.common.interceptor.ExceptionResolver"/>
 
@@ -18,5 +20,6 @@
         <aop:pointcut id="controllerOperation"
                       expression="execution(* com.chm.shop.web.controller..*Controller.*(..))" />
         <aop:advisor advice-ref="validateInterceptor" pointcut-ref="controllerOperation"/>
+        <aop:advisor advice-ref="logInterceptor" pointcut-ref="controllerOperation"/>
     </aop:config>
 </beans>

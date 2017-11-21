@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration scan="true" scanPeriod="1 seconds">
-    <contextName>ach-doctor-portal</contextName>
-    <jmxConfigurator/>
+    <contextName>shopping-mall</contextName>
+
+    <property scope="context" resource="config/log.properties" />
     <!-- direct log messages to stdout -->
     <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
         <Target>System.out</Target>
@@ -16,7 +17,7 @@
     </appender>
     <!--  -->
     <appender name="ALL" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${loggingRoot}/ach-doctor-portal.log</file>
+        <file>${loggingRoot}/shopping-mall.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <FileNamePattern>${loggingRoot}/%d{yyyy-MM,aux}/shopping-mall.%d.%i.gz</FileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy
@@ -30,7 +31,7 @@
         </encoder>
     </appender>
     <appender name="errorFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${loggingRoot}/shopping-mall.log</file>
+        <file>${loggingRoot}/shopping-mall-error.log</file>
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>ERROR</level>
             <onMatch>ACCEPT</onMatch>
@@ -54,12 +55,51 @@
         </encoder>
     </appender>
 
-    <logger name="org.apache" level="info"/>
-    <logger name="org.springframework" level="info"/>
-    <logger name="org.springframework.web" level="info"/>
-    <logger name="com.chm.shop" level="info"/>
+    <appender name="SQL" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${loggingRoot}/shopping-mall-sql.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${loggingRoot}/shopping-mall/%d{yyyy-MM,aux}/shopping-mall-sql.log.%d.%i.gz</FileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>1024MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss}[%t]%-5p %c{36}.%M\(%L\) %m%n</pattern>
+        </encoder>
+    </appender>
 
-    <root level="info">
+    <appender name="API" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${loggingRoot}/shopping-mall-api.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${loggingRoot}/shopping-mall/%d{yyyy-MM,aux}/shopping-mall-api.log.%d.%i.gz</FileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>1024MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss}[%t]%-5p %c{36}.%M\(%L\) %m%n</pattern>
+        </encoder>
+    </appender>
+    <!-- 定义SQL日志 -->
+    <logger name="mapper" level="DEBUG" >
+        <appender-ref ref="SQL" />
+    </logger>
+
+    <!-- 定义API日志 -->
+    <logger name="API" level="DEBUG" >
+        <appender-ref ref="API" />
+    </logger>
+
+    <!-- 定义SQL日志 -->
+    <logger name="SQL" level="info" >
+        <appender-ref ref="SQL" />
+    </logger>
+
+    <root level="${loggingLevel}">
         <appender-ref ref="ASYNCConsole"/>
         <appender-ref ref="ALL"/>
         <appender-ref ref="errorFile"/>

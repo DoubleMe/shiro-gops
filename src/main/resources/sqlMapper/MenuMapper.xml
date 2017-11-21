@@ -11,6 +11,7 @@
         <result column="type" property="type" />
         <result column="parent_id" property="parentId" />
         <result column="icon" property="icon" />
+        <result column="parent_name" property="parentName" />
     </resultMap>
 
     <!--the Base_Column_List-->
@@ -34,12 +35,17 @@
 
     <!--列表查询-->
     <select id="list" resultMap="BaseResultMap" >
-        SELECT 
-        <include refid="Base_Column_List"/>
-        FROM t_menu
+        SELECT
+        t1.id, t1.url, t1.name, t1.type, t1.parent_id, t1.icon,t2.name as parent_name
+        FROM t_menu t1
+        LEFT JOIN t_menu t2
+        ON t1.parent_id = t2.id
         <where>
             <if test="name != null and name != ''">
-                name LIKE CONCAT(#{name}, '%')
+               AND t1.name LIKE CONCAT(#{name}, '%') OR t2.name LIKE CONCAT(#{name}, '%')
+            </if>
+            <if test="type != null">
+               AND t1.type = #{type}
             </if>
         </where>
     </select>

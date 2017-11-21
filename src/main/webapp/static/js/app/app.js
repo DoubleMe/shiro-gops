@@ -12,16 +12,33 @@ layui.use('layer', function () {
             btn: ['确定','取消'] //按钮
         }, function(){
             ajax(url,"",function (res) {
-                if (res.success) {
-                    layer.msg(res.message);
-                }
+
+                layer.msg(res.message);
                 setTimeout(function () {
-                    window.location.reload();
+                    if (res.success){
+                        window.location.reload();
+                    }
                 }, 1000);
             })
         }, function(){
 
         });
+
+    })
+
+    $('.btn-refresh').on('click',function () {
+        var _this = $(this);
+        var url = _this.data('url');
+        ajax(url,"",function (res) {
+
+            layer.msg(res.message);
+            setTimeout(function () {
+                if (res.success){
+                    window.location.reload();
+                }
+            }, 1000);
+        })
+
 
     })
 
@@ -48,9 +65,9 @@ function open(title, action ,area) {
         yes: function (index) {
             ajax(action, $('#saveForm').serialize(), function (res) {
 
-                if (res.success) {
+                // if (res.success) {
                     layer.msg(res.message);
-                }
+                // }
                 setTimeout(function () {
                     layer.close(index);
                     window.location.reload();
@@ -73,13 +90,7 @@ function ajax(url, data, callback) {
         dataType: "json",
         data: data,
         success: function (res) {
-
             callback(res);
-            setTimeout(function () {
-                if (!res.success) {
-                    layer.msg(res.message);
-                }
-            }, 1000);
         }
 
     });

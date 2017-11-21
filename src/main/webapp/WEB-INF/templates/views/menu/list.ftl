@@ -35,11 +35,11 @@
                     <th>${item_index + 1}</th>
                     <th>${item.name}</th>
                     <th>${item.url}</th>
-                    <th>${item.parentId!''}</th>
+                    <th>${item.parentName!''}</th>
                     <th><i class="layui-icon">${item.icon}</i></th>
                     <th>${(item.type==0)?string("菜单","按钮")}</th>
                     <th><a class="mod-menu" data-id="${item.id}" href="#">修改</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a class="btn-del"  data-url="/menu/del/${item.id}" href="#">删除</a>
+                        <a class="btn-del"  data-url="/menu/del?id=${item.id}" href="#">删除</a>
                     </th>
                 </tr>
             </#list>
@@ -89,7 +89,6 @@
 </div>
 <#include "/views/footer.ftl">
 <script src="/static/js/app/page.js"></script>
-<script src="/static/js/app/app.js"></script>
 <script>
 
     layui.use(['form', 'layer','table'], function(){
@@ -98,7 +97,7 @@
         //新增菜单
         $('.add-menu').on('click',function () {
             document.getElementById("saveForm").reset();
-            ajax("/menu/list","",function (r) {
+            ajax("/menu/list",{'size':10000},function (r) {
                 createSelect("#parentId",r,"name","id");
                 form.render();
                 open('新增菜单',"/menu/save",['400px', '400px']);
@@ -110,13 +109,18 @@
             var id = $(this).data("id");
             $('input[name=id]').val(id);
 
-            createSelect("#parentId","/menu/list","name","id")
-            ajax("/menu/detail/" + id,"",function (res) {
+            ajax("/menu/detail?id=" + id,"",function (res) {
+                if (!res.success){
+                    setTimeout(function () {
+                        layer.msg(res.message);
+                    })
+                    return false;
+                }
                 $('input[name=name]').val(res.data.name);
                 $('input[name=url]').val(res.data.url);
                 $('input[name=icon]').val(res.data.icon);
                 $('input[name=type][value=' + res.data.type + ']').prop("checked",true);
-                ajax("/menu/list","",function (r) {
+                ajax("/menu/list",{'size':10000},function (r) {
                     createSelect("#parentId",r,"name","id",res.data.parentId);
                     form.render();
                     open('修改菜单',"/menu/save",['400px', '400px']);

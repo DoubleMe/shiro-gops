@@ -1,6 +1,5 @@
 package com.chm.shop.app;
 
-import com.chm.shop.manager.user.dataobject.UserDO;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.session.Session;
 
@@ -16,11 +15,14 @@ public class UserTokenManager {
      *
      * @return
      */
-    public static UserDO getUserToken() {
+    public static UserToken getUserToken() {
 
-        UserDO userDO = (UserDO) SecurityUtils.getSubject().getPrincipal();
+        Object userToken = SecurityUtils.getSubject().getPrincipal();
 
-        return userDO;
+        if (userToken == null){
+            return null;
+        }
+        return (UserToken)userToken;
     }
 
 
@@ -30,7 +32,7 @@ public class UserTokenManager {
      */
     public static String getLoginId() {
 
-        UserDO userDO = (UserDO) SecurityUtils.getSubject().getPrincipal();
+        UserToken userDO = getUserToken();
 
         if (userDO != null) {
             return userDO.getLoginId();
@@ -44,10 +46,24 @@ public class UserTokenManager {
      */
     public static Long getUserId() {
 
-        UserDO userDO = (UserDO) SecurityUtils.getSubject().getPrincipal();
+        UserToken userDO = getUserToken();
 
         if (userDO != null) {
-            return userDO.getId();
+            return userDO.getUserId();
+        }
+        return null;
+    }
+
+    /**
+     * 获取当前用户登录ID
+     * @return
+     */
+    public static String getUserRole() {
+
+        UserToken userDO = getUserToken();
+
+        if (userDO != null) {
+            return userDO.getRole();
         }
         return null;
     }

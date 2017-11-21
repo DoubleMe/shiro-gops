@@ -23,9 +23,8 @@
                     <th>${item.loginId}</th>
                     <th>${item.salt}</th>
                     <th>
-                        <a class="layui-btn layui-btn-radius  layui-btn-small layui-btn-primary btn-del"  data-url="/user/del/${item.id}" href="#">删除</a>
+                        <#--<a class="layui-btn layui-btn-radius  layui-btn-small layui-btn-primary btn-del"  data-url="/user/del/${item.id}" href="#">删除</a>-->
                         <a class="layui-btn layui-btn-radius  layui-btn-small layui-btn-primary btn-add-user"  data-id="${item.id}" href="#">分配角色</a>
-
                     </th>
                 </tr>
             </#list>
@@ -78,7 +77,7 @@
                 ajax("/role/list","",function (r) {
                     createSelect("#role",r,"name","id",roleId);
                     form.render();
-                    open('新增菜单',"/user/role/save",['400px', '400px']);
+                    open('分配权限',"/user/role/save",['400px', '400px']);
                 })
             })
 

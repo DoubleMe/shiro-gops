@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!---->
+<mapper namespace="com.chm.shop.mapper.LogApiMapper">
+
+    <!--the base resultMap-->
+    <resultMap id="BaseResultMap" type="com.chm.shop.manager.log.dataobject.LogApiDO" >
+        <id column="id" property="id" />
+        <result column="module" property="module" />
+        <result column="method" property="method" />
+        <result column="message" property="message" />
+        <result column="uri" property="uri" />
+        <result column="login_id" property="loginId" />
+        <result column="gmt_created" property="gmtCreated" />
+        <result column="gmt_modified" property="gmtModified" />
+    </resultMap>
+
+    <!--the Base_Column_List-->
+    <sql id="Base_Column_List" >
+        id, module, method, message, uri, login_id, gmt_created, gmt_modified
+    </sql>
+
+    <!--新增-->
+    <insert id="insert" parameterType="com.chm.shop.manager.log.dataobject.LogApiDO" >
+        INSERT INTO t_log_api (id, module, method, message, uri, login_id, gmt_created, gmt_modified)
+        VALUES (#{id}, #{module}, #{method}, #{message}, #{uri}, #{loginId}, now(), now())
+    </insert>
+
+    <!--主键查询-->
+    <select id="getById" resultMap="BaseResultMap" >
+        SELECT 
+        <include refid="Base_Column_List"/>
+        FROM t_log_api
+        WHERE id = #{id}
+    </select>
+
+    <!--列表查询-->
+    <select id="list" resultMap="BaseResultMap" >
+        SELECT 
+        <include refid="Base_Column_List"/>
+        FROM t_log_api
+    </select>
+
+    <!--更新-->
+    <update id="update" >
+        UPDATE t_log_api
+        <set>
+            <if test="id != null">
+                id = #{id},
+            </if>
+            <if test="module != null">
+                module = #{module},
+            </if>
+            <if test="method != null">
+                method = #{method},
+            </if>
+            <if test="message != null">
+                message = #{message},
+            </if>
+            <if test="uri != null">
+                uri = #{uri},
+            </if>
+            <if test="loginId != null">
+                login_id = #{loginId},
+            </if>
+            <if test="gmtCreated != null">
+                gmt_created = now(),
+            </if>
+            <if test="gmtModified != null">
+                gmt_modified = now(),
+            </if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <!--根据主键删除-->
+    <delete id="delById" >
+        DELETE FROM t_log_api
+        WHERE id = #{id}
+    </delete>
+
+</mapper>

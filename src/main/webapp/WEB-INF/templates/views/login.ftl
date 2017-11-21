@@ -7,11 +7,12 @@
     <script src="/static/js/layui/layui.js"></script>
 </head>
 <div class="layui-body" style="margin-top:15%;margin-left: 20%">
-    <form class="layui-form" action="/login" method="post" id="loginForm">
-        <div>
-            ${msg!''}
-        </div>
+    <form class="layui-form" action="/index/login" method="post" id="loginForm">
+
         <div class="layui-form-item">
+            <div class="layui-form-item">
+                <label style="margin-left: 110px;font-size: medium;color:red">${msg!''}</label>
+            </div>
             <div class="layui-form-item">
                 <label class="layui-form-label">账号</label>
                 <div class="layui-input-inline">

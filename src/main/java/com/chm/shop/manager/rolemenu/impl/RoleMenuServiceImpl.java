@@ -5,6 +5,7 @@ import com.chm.shop.app.common.reponse.Response;
 import com.chm.shop.app.common.reponse.ResponseCode;
 import com.chm.shop.app.constants.MessageConstats;
 import com.chm.shop.app.util.ResponseUtils;
+import com.chm.shop.manager.menu.dataobject.MenuDO;
 import com.chm.shop.manager.rolemenu.RoleMenuService;
 import com.chm.shop.manager.rolemenu.dataobject.RoleMenuDO;
 import com.chm.shop.manager.rolemenu.query.RoleMenuQuery;
@@ -43,7 +44,12 @@ public class RoleMenuServiceImpl implements RoleMenuService {
     public Response<Boolean> delByRoleId(Long roleId) {
 
         roleMenuMapper.delById(roleId);
-        return ResponseUtils.successResponse(roleMenuMapper.getByRoleId(roleId), MessageConstats.DELETE_SUCCESS);
+        return ResponseUtils.successResponse(Boolean.TRUE, MessageConstats.DELETE_SUCCESS);
+    }
+
+    @Override
+    public Response<List<MenuDO>> listByRoleId(Long roleId) {
+        return ResponseUtils.successResponse(roleMenuMapper.listMenu(roleId), MessageConstats.DELETE_SUCCESS);
     }
 
     @Override
@@ -52,4 +58,6 @@ public class RoleMenuServiceImpl implements RoleMenuService {
         PageList<RoleMenuDO> list = roleMenuMapper.list(roleMenuQuery, new PageBounds(roleMenuQuery.getPage(), roleMenuQuery.getSize()));
         return ResponseUtils.pageResponse(ResponseCode.SUCCESS, MessageConstats.SUCCESS, list);
     }
+
+
 }

@@ -2,6 +2,7 @@ package com.chm.shop.manager.rolemenu;
 
 import com.chm.shop.app.common.reponse.PageResponse;
 import com.chm.shop.app.common.reponse.Response;
+import com.chm.shop.manager.menu.dataobject.MenuDO;
 import com.chm.shop.manager.rolemenu.dataobject.RoleMenuDO;
 import com.chm.shop.manager.rolemenu.query.RoleMenuQuery;
 import com.github.miemiedev.mybatis.paginator.domain.PageList;
@@ -23,6 +24,11 @@ public interface RoleMenuService {
      * 主键查询
      */
     Response<List<RoleMenuDO>> getByRoleId(Long roleId);
+
+    /**
+     * 主键查询
+     */
+    Response<List<MenuDO>> listByRoleId(Long roleId);
 
     /**
      * 根据主键删除

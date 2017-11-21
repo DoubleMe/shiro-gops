@@ -1,6 +1,8 @@
 package com.chm.shop.web.controller.auth;
 
 import com.chm.shop.app.common.anno.MyValid;
+import com.chm.shop.app.common.anno.SysLog;
+import com.chm.shop.app.common.enums.SystemModuleEnum;
 import com.chm.shop.app.common.reponse.PageResponse;
 import com.chm.shop.app.common.reponse.Response;
 import com.chm.shop.app.constants.MessageConstats;
@@ -49,7 +51,10 @@ public class RoleMenuController {
     @ResponseBody
     public Object postList(Long roleId, Model model) {
 
-        PageResponse<List<MenuDO>> pageResponse = menuService.list(new MenuQuery());
+        MenuQuery query = new MenuQuery();
+        query.setPage(0);
+        query.setSize(200);
+        PageResponse<List<MenuDO>> pageResponse = menuService.list(query);
 
         Response<List<RoleMenuDO>> byRoleId = roleMenuService.getByRoleId(roleId);
 
@@ -68,7 +73,7 @@ public class RoleMenuController {
         return ResponseUtils.successResponse(result, MessageConstats.SUCCESS);
     }
 
-
+    @SysLog(message = "分配权限",module = SystemModuleEnum.AUTH)
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     @ResponseBody
     public Object save(@MyValid SaveVO saveVO, Model model) {

@@ -43,6 +43,6 @@ public class PermissionFilter extends AccessControlFilter {
 
     @Override
     protected boolean onAccessDenied(ServletRequest request, ServletResponse response) throws Exception {
-        return true;
+        return false;
     }
 }

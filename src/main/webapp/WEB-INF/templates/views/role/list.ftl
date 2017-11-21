@@ -35,7 +35,8 @@
                     <th>${item.salt}</th>
                     <th>${item.loginId}</th>
                     <th><a class="layui-btn layui-btn-radius  layui-btn-small layui-btn-primary mod-menu" data-id="${item.id}" data-name="${item.name}" data-salt="${item.salt}" href="#">修改</a>
-                        <a class="layui-btn layui-btn-radius  layui-btn-small layui-btn-primary btn-del"  data-url="/role/del/${item.id}" href="#">删除</a>
+                        <a class="layui-btn layui-btn-radius  layui-btn-small layui-btn-primary btn-del"  data-url="/role/del?id=${item.id}" href="#">删除</a>
+                        <a class="layui-btn layui-btn-radius  layui-btn-small layui-btn-primary btn-refresh"  data-url="/role/refresh?roleId=${item.id}" href="#">刷新权限</a>
                         <button class="layui-btn layui-btn-radius  layui-btn-small layui-btn-primary btn-add-auth"  data-id="${item.id}" data-url="/auth/list" href="#">权限列表</button>
                     </th>
                 </tr>
@@ -69,7 +70,6 @@
 </div>
 <#include "/views/footer.ftl">
 <script src="/static/js/app/page.js"></script>
-<script src="/static/js/app/app.js"></script>
 <script>
 
     layui.use(['form', 'layer','table'], function(){

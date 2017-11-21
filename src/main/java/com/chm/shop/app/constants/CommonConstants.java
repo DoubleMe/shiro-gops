@@ -6,6 +6,8 @@ package com.chm.shop.app.constants;
  */
 public class CommonConstants {
 
+
+
     //踢出状态，true标示踢出
     public final static String KICKOUT_STATUS = "user_kickout_status";
 

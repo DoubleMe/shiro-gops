@@ -2,7 +2,7 @@ package com.chm.shop.web.common.interceptor;
 
 
 import com.chm.shop.app.constants.CommonConstants;
-import com.chm.shop.web.common.cache.MenuCache;
+import com.chm.shop.web.common.cache.MenuCacheService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.ObjectUtils;
@@ -21,7 +21,7 @@ public class OperateInterceptor extends HandlerInterceptorAdapter {
     private static final Logger logger = LoggerFactory.getLogger(OperateInterceptor.class);
 
     @Resource
-    private MenuCache menuCache;
+    private MenuCacheService menuCache;
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
@@ -33,6 +33,8 @@ public class OperateInterceptor extends HandlerInterceptorAdapter {
             menuCache.setCurrMenuId(mid);
         }
 
+
+        logger.debug("当前访问路径：" + request.getRequestURI());
         return true;
     }
 
@@ -42,7 +44,7 @@ public class OperateInterceptor extends HandlerInterceptorAdapter {
 
         super.postHandle(request, response, handler, modelAndView);
         if (modelAndView != null) {
-            modelAndView.addObject(CommonConstants.MENU, menuCache.getMenu());
+            modelAndView.addObject(CommonConstants.MENU, menuCache.getShowMenu());
             modelAndView.addObject(CommonConstants.CURR_MENU_ID, menuCache.getCurrMenuId());
         }
 
