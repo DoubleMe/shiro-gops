@@ -5,6 +5,7 @@ import com.chm.shop.app.UserTokenManager;
 import com.chm.shop.app.constants.IndexViewConstats;
 import com.chm.shop.app.util.JsonUtils;
 import com.chm.shop.app.util.ResponseUtils;
+import com.chm.shop.web.common.exception.ParamValidException;
 import com.chm.shop.web.common.util.HttpUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,9 +34,13 @@ public class ExceptionResolver implements HandlerExceptionResolver {
 
         LOGGER.error(exceptionLog, ex);
 
+        String errorMsg = "系统异常";
+        if (ex instanceof ParamValidException){
+            errorMsg = ex.getMessage();
+        }
         if (HttpUtils.isAjax(request)){
 
-            HttpUtils.response(response, JsonUtils.ObjToJson(ResponseUtils.failResponse("系统异常")));
+            HttpUtils.response(response, JsonUtils.ObjToJson(ResponseUtils.failResponse(errorMsg)));
 
             return null;
         }else {

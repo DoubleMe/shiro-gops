@@ -2,7 +2,10 @@ package com.chm.shop.web.common.interceptor;
 
 import com.chm.shop.app.common.anno.MyValid;
 import com.chm.shop.app.constants.SystemConstants;
+import com.chm.shop.app.util.JsonUtils;
 import com.chm.shop.app.util.ResponseUtils;
+import com.chm.shop.web.common.exception.ParamValidException;
+import com.chm.shop.web.common.util.ValidateUtils;
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 import org.slf4j.Logger;
@@ -36,57 +39,26 @@ public class ParamValidateInterceptor implements MethodInterceptor {
             return invocation.proceed();
         }
 
-
-        Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
-        Set<ConstraintViolation<Object>> set = null;
+        List<String> message = new ArrayList<>();
         for (int i = 0; i < parameters.length; i++) {
             Parameter parameter = parameters[i];
 
-            MyValid anno = parameter.getAnnotation(MyValid.class);
-            if (anno == null) {
+            MyValid valid = parameter.getAnnotation(MyValid.class);
+            if (valid == null) {
                 continue;
             }
-            Class<?>[] groups = anno.groups();
+            Class<?>[] groups = valid.groups();
             Object argument = arguments[i];
-            if (set == null) {
-                set = validator.validate(argument,groups);
-            } else {
-                set.addAll(validator.validate(argument ,groups));
-            }
+            message.addAll(ValidateUtils.validateAndProcess(argument, groups));
         }
 
-        if (set != null && !set.isEmpty()) {
-            List<String> msg = process(set);
+        if (!message.isEmpty()) {
 
-            return ResponseUtils.failResponse(msg.get(0));
+            throw new ParamValidException(JsonUtils.ObjToJson(message));
         }
 
         return invocation.proceed();
     }
 
-    /**
-     * 处理校验结果
-     *
-     * @param result
-     */
-    private List<String> process(Set<ConstraintViolation<Object>> result) {
 
-        List<String> msg = new ArrayList<>();
-        StringBuilder sb = new StringBuilder();
-        Iterator<ConstraintViolation<Object>> iterator = result.iterator();
-
-        while (iterator.hasNext()) {
-            sb.delete(0, sb.length());
-            ConstraintViolation<Object> next = iterator.next();
-            sb.append("参数校验失败：").append(next.getRootBean())
-                    .append("#filed : ").append(next.getPropertyPath())
-                    .append("---").append(next.getMessage());
-            sb.append(SystemConstants.lineSeparator);
-
-            msg.add(next.getMessage());
-            LOGGER.info(sb.toString());
-        }
-
-        return msg;
-    }
 }

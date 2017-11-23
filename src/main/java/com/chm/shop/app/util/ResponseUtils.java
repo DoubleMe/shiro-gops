@@ -21,6 +21,20 @@ public class ResponseUtils {
      * @param <T> 泛型
      * @return
      */
+    public static<T> Response newResponse(T t,int code,String message){
+
+
+        return new Response(code,message,t);
+    }
+
+
+    /**
+     *  成功response
+     * @param t 对象
+     * @param message 消息
+     * @param <T> 泛型
+     * @return
+     */
     public static<T> Response successResponse(T t,String message){
 
 
@@ -37,6 +51,18 @@ public class ResponseUtils {
 
 
         return new Response(ResponseCode.ERROR,message);
+    }
+
+    /**
+     * 失败response
+     * @param code
+     * @param message 失败信息
+     * @return Response
+     */
+    public static Response failResponse(int code,String message){
+
+
+        return new Response(code,message);
     }
 
     /**
