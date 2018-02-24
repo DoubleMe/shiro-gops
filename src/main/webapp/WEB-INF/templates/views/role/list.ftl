@@ -61,6 +61,7 @@
                 <input type="text" name="salt" required lay-verify="required" placeholder="请输入链接" autocomplete="off" class="layui-input">
             </div>
         </div>
+        ${token()}
     </form>
 </div>
 

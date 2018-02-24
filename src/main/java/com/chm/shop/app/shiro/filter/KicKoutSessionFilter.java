@@ -27,7 +27,9 @@ public class KicKoutSessionFilter extends AccessControlFilter {
 
     private final static Logger LOGGER = LoggerFactory.getLogger(KicKoutSessionFilter.class);
 
-    //踢出后到的地址
+    /**
+     * 踢出后到的地址
+     */
     private String kickoutUrl;
 
     private SessionIdCacheManager sessionIdCacheManager;

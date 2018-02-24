@@ -3,6 +3,10 @@ package com.chm.shop.app.util;
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 
+/**
+ * @author chen-hongmin
+ * @since 2017/11/10 10:50
+ */
 public class Md5Utils {
     /**
      * 编码格式
@@ -42,8 +46,9 @@ public class Md5Utils {
 
         java.security.MessageDigest md = java.security.MessageDigest.getInstance("MD5");
         md.update(src);
-        for (byte b : md.digest())
+        for (byte b : md.digest()){
             sb.append(Integer.toString(b >>> 4 & 0xF, 16)).append(Integer.toString(b & 0xF, 16));
+        }
 
         return sb.toString();
     }

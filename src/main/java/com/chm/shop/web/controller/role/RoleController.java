@@ -8,14 +8,12 @@ import com.chm.shop.app.common.reponse.PageResponse;
 import com.chm.shop.app.common.reponse.Response;
 import com.chm.shop.app.constants.MessageConstats;
 import com.chm.shop.app.util.ResponseUtils;
-import com.chm.shop.manager.menu.dataobject.MenuDO;
 import com.chm.shop.manager.role.RoleService;
 import com.chm.shop.manager.role.dataobject.RoleDO;
 import com.chm.shop.manager.role.query.RoleQuery;
 import com.chm.shop.web.common.cache.MenuCacheService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -50,7 +48,7 @@ public class RoleController {
 
     @RequestMapping(value = "/list", method = RequestMethod.POST)
     @ResponseBody
-    public Object postList(RoleQuery query, Model model) {
+    public Object postList(RoleQuery query) {
 
         PageResponse<List<RoleDO>> pageResponse = roleService.list(query);
 

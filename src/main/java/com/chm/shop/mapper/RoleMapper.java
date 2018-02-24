@@ -31,6 +31,9 @@ public interface RoleMapper {
 
     /**
      * 列表查询
+     * @param query 查询条件
+     * @param pageBounds  分页条件
+     * @return  PageList<RoleDO>
      */
     PageList<RoleDO> list(RoleQuery query , PageBounds pageBounds);
 

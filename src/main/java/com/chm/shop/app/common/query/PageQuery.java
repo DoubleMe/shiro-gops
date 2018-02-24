@@ -61,7 +61,8 @@ public class PageQuery {
 
     public int getPage() {
         if (page < 1){
-            return 0; //不需要分页
+            //不需要分页
+            return 0;
         }
         return page;
     }

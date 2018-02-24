@@ -40,7 +40,8 @@ public class AESUtils {
         Cipher cipher = Cipher.getInstance("AES");
 
         byte[] byteContent = originData.getBytes("utf-8");
-        cipher.init(Cipher.ENCRYPT_MODE, keySpec);// 初始化
+        // 初始化
+        cipher.init(Cipher.ENCRYPT_MODE, keySpec);
         byte[] result = cipher.doFinal(byteContent);
 
         String encodeStr = new String(Base64Utils.encode(result));
@@ -64,8 +65,10 @@ public class AESUtils {
         SecretKey secretKey = kgen.generateKey();
         byte[] enCodeFormat = secretKey.getEncoded();
         SecretKeySpec keySpec = new SecretKeySpec(enCodeFormat, "AES");
-        Cipher cipher = Cipher.getInstance("AES");// 创建密码器
-        cipher.init(Cipher.DECRYPT_MODE, keySpec);// 初始化
+        // 创建密码器
+        Cipher cipher = Cipher.getInstance("AES");
+        // 初始化
+        cipher.init(Cipher.DECRYPT_MODE, keySpec);
         byte[] byteContent = Base64Utils.decodeFromString(content);
         byte[] result = cipher.doFinal(byteContent);
         String AES_decode = new String(result, "utf-8");

@@ -11,13 +11,14 @@ public class PageUtils {
 
     /**
      * page 对象转为 model
+     *
      * @param query
      * @param <T>
      * @return
      */
-    public static<T> PageRequest queryToRequest(PageQuery query){
+    public static <T> PageRequest queryToRequest(PageQuery query) {
 
-        PageRequest pageRequest = new PageRequest(query.getPage() - 1,query.getSize());
+        PageRequest pageRequest = new PageRequest(query.getPage() - 1, query.getSize());
 
         return pageRequest;
     }

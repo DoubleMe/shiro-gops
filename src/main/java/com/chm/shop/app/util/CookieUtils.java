@@ -27,8 +27,8 @@ public class CookieUtils {
 
         Cookie[] cookies = request.getCookies();
 
-        // 然后迭代之
-        if (cookies != null && cookies.length > 0) { //如果没有设置过Cookie会返回null
+        // 然后迭代之 如果没有设置过Cookie会返回null
+        if (cookies != null && cookies.length > 0) {
             for (Cookie cookie : cookies) {
                 if (cookie.getName().equals(key)){
                     return cookie.getValue();

@@ -48,7 +48,7 @@ public class BaseCache<K, V>{
     public void setValue(K key, V value) {
 
         template.opsForValue().set(key, value);
-        template.expire(key, this.DEFAULT_EXPIRE, TimeUnit.SECONDS);
+        template.expire(key,DEFAULT_EXPIRE, TimeUnit.SECONDS);
     }
 
     /**
